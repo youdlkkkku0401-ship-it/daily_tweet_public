@@ -148,7 +148,7 @@ def check_subscriber_increases():
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
                 current_million = current_subscribers // 100000 * 10
-                post_content = f"#{channel_name} さんが登録者{current_million}万人を達成しました！🎉"
+                post_content = f"#{channel_name} さんが登録者 {current_million}万人 を達成しました！🎉"
 
             #2K以上または奇数の時
             #elif (over2K or Kdigit%2 == 1 or Kdigit==0):
