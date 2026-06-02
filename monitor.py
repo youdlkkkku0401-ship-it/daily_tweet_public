@@ -175,7 +175,7 @@ def check_subscriber_increases():
                     
                 #ツイッター投稿テキスト
                 post_content = (f" {channel_name} さん\n"
-                                f"登録者数が{current_subscribers_comma}人に到達しました\n"
+                                f"登録者数が {current_subscribers_comma}人 に到達しました\n"
                                 f"{elapsed_text}")
                 post_content += "\u200b" * random.randint(1, 2)
 
