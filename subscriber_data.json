@@ -1,0 +1,773 @@
+{
+  "last_updated": "2026-06-02T05:00:38.088088",
+  "channels": {
+    "月ノ美兎": {
+      "subscribers": 1500000,
+      "last_checked": "2026-05-26T02:17:25.915638"
+    },
+    "える": {
+      "subscribers": 725000,
+      "last_checked": "2026-06-01T11:00:49.558561",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "樋口楓": {
+      "subscribers": 1020000,
+      "last_checked": "2026-05-26T02:17:25.915883"
+    },
+    "静凛": {
+      "subscribers": 396000,
+      "last_checked": "2026-05-26T02:17:25.916179"
+    },
+    "渋谷ハジメ": {
+      "subscribers": 161000,
+      "last_checked": "2026-05-26T02:17:25.916473"
+    },
+    "モイラ": {
+      "subscribers": 147000,
+      "last_checked": "2026-05-26T02:17:25.916748"
+    },
+    "宇志海いちご": {
+      "subscribers": 188000,
+      "last_checked": "2026-05-26T02:17:25.917039"
+    },
+    "家長むぎ": {
+      "subscribers": 288000,
+      "last_checked": "2026-05-31T05:23:25.677782"
+    },
+    "夕陽リリ": {
+      "subscribers": 407000,
+      "last_checked": "2026-05-26T02:17:25.917637"
+    },
+    "物述有栖": {
+      "subscribers": 262000,
+      "last_checked": "2026-05-26T02:17:25.917917"
+    },
+    "文野環": {
+      "subscribers": 432000,
+      "last_checked": "2026-05-27T02:00:47.028870"
+    },
+    "伏見ガク": {
+      "subscribers": 360000,
+      "last_checked": "2026-05-30T03:23:26.178993",
+      "last_posted_day": "2026-05-30T03:23:26.179002"
+    },
+    "ギルザレンⅢ世": {
+      "subscribers": 196000,
+      "last_checked": "2026-05-26T02:17:25.918740"
+    },
+    "剣持刀也": {
+      "subscribers": 1230000,
+      "last_checked": "2026-05-26T02:17:25.919002"
+    },
+    "森中花咲": {
+      "subscribers": 334000,
+      "last_checked": "2026-05-26T02:17:25.919332"
+    },
+    "叶": {
+      "subscribers": 1600000,
+      "last_checked": "2026-05-26T02:17:25.919748"
+    },
+    "赤羽葉子": {
+      "subscribers": 210000,
+      "last_checked": "2026-05-26T02:17:25.920021"
+    },
+    "笹木咲": {
+      "subscribers": 976000,
+      "last_checked": "2026-05-31T20:23:27.952397"
+    },
+    "本間ひまわり": {
+      "subscribers": 778000,
+      "last_checked": "2026-05-31T17:23:28.010314"
+    },
+    "魔界ノりりむ": {
+      "subscribers": 591000,
+      "last_checked": "2026-05-26T02:17:25.920860"
+    },
+    "葛葉": {
+      "subscribers": 2180000,
+      "last_checked": "2026-05-29T14:23:32.744575",
+      "last_posted_day": "2026-05-29T14:23:32.744585"
+    },
+    "椎名唯華": {
+      "subscribers": 889000,
+      "last_checked": "2026-05-28T10:23:28.462116",
+      "last_posted_day": "2026-05-28T10:23:28.462125"
+    },
+    "ドーラ": {
+      "subscribers": 361000,
+      "last_checked": "2026-05-26T02:17:25.921751"
+    },
+    "轟京子": {
+      "subscribers": 148000,
+      "last_checked": "2026-05-26T02:17:25.922044"
+    },
+    "シスター・クレア": {
+      "subscribers": 626000,
+      "last_checked": "2026-05-31T17:23:28.010352"
+    },
+    "花畑チャイカ": {
+      "subscribers": 566000,
+      "last_checked": "2026-05-31T16:23:27.267114"
+    },
+    "社築": {
+      "subscribers": 912000,
+      "last_checked": "2026-05-26T02:17:25.922953"
+    },
+    "鈴木勝": {
+      "subscribers": 329000,
+      "last_checked": "2026-05-26T02:17:25.923243"
+    },
+    "緑仙": {
+      "subscribers": 801000,
+      "last_checked": "2026-05-31T14:23:26.763957",
+      "last_posted_day": "2026-05-31T14:23:26.763969"
+    },
+    "卯月コウ": {
+      "subscribers": 442000,
+      "last_checked": "2026-05-30T09:23:29.398534"
+    },
+    "神田笑一": {
+      "subscribers": 267000,
+      "last_checked": "2026-05-26T02:17:25.924339"
+    },
+    "飛鳥ひな": {
+      "subscribers": 110000,
+      "last_checked": "2026-05-26T02:17:25.924940"
+    },
+    "春崎エアル": {
+      "subscribers": 193000,
+      "last_checked": "2026-05-26T02:17:25.925340"
+    },
+    "雨森小夜": {
+      "subscribers": 215000,
+      "last_checked": "2026-05-26T02:17:25.925763"
+    },
+    "鷹宮リオン": {
+      "subscribers": 555000,
+      "last_checked": "2026-05-26T02:17:25.926104"
+    },
+    "舞元啓介": {
+      "subscribers": 461000,
+      "last_checked": "2026-05-26T02:17:25.926433"
+    },
+    "竜胆尊": {
+      "subscribers": 593000,
+      "last_checked": "2026-05-26T02:17:25.926807"
+    },
+    "でびでび・でびる": {
+      "subscribers": 635000,
+      "last_checked": "2026-05-26T02:17:25.927215"
+    },
+    "桜凛月": {
+      "subscribers": 280000,
+      "last_checked": "2026-05-26T02:17:25.927557"
+    },
+    "町田ちま": {
+      "subscribers": 891000,
+      "last_checked": "2026-06-01T12:00:55.088251",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "ジョー・力一": {
+      "subscribers": 622000,
+      "last_checked": "2026-06-01T10:45:39.350763",
+      "last_posted_day": "2026-06-01T10:45:39.350773",
+      "last_post_fan": 622000
+    },
+    "ベルモンド・バンデラス": {
+      "subscribers": 489000,
+      "last_checked": "2026-05-26T02:17:25.928860"
+    },
+    "矢車りね": {
+      "subscribers": 193000,
+      "last_checked": "2026-05-30T09:24:07.972233",
+      "last_posted_day": "2026-05-30T09:24:07.972242"
+    },
+    "夢追翔": {
+      "subscribers": 381000,
+      "last_checked": "2026-05-26T02:17:25.929769"
+    },
+    "黒井しば": {
+      "subscribers": 295000,
+      "last_checked": "2026-06-01T04:23:30.667687",
+      "last_posted_day": null
+    },
+    "夢月ロア": {
+      "subscribers": 333000,
+      "last_checked": "2026-05-26T02:17:25.930605"
+    },
+    "語部紡": {
+      "subscribers": 111000,
+      "last_checked": "2026-05-26T02:17:25.931003"
+    },
+    "戌亥とこ": {
+      "subscribers": 1010000,
+      "last_checked": "2026-05-26T02:17:25.931424"
+    },
+    "アンジュ・カトリーナ": {
+      "subscribers": 1020000,
+      "last_checked": "2026-06-02T02:13:28.616112",
+      "last_posted_day": "2026-06-02T02:13:28.616121",
+      "last_post_fan": 1020000
+    },
+    "リゼ・ヘルエスタ": {
+      "subscribers": 1010000,
+      "last_checked": "2026-05-26T02:17:25.932274"
+    },
+    "三枝明那": {
+      "subscribers": 734000,
+      "last_checked": "2026-05-26T02:17:25.932712"
+    },
+    "愛園愛美": {
+      "subscribers": 181000,
+      "last_checked": "2026-05-26T02:17:25.933183"
+    },
+    "鈴原るる": {
+      "subscribers": 767000,
+      "last_checked": "2026-06-01T19:15:37.251960",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "雪城眞尋": {
+      "subscribers": 210000,
+      "last_checked": "2026-05-26T02:17:25.934092"
+    },
+    "エクス・アルビオ": {
+      "subscribers": 566000,
+      "last_checked": "2026-05-29T17:23:28.086152"
+    },
+    "レヴィ・エリファ": {
+      "subscribers": 371000,
+      "last_checked": "2026-05-26T02:17:25.934953"
+    },
+    "葉山舞鈴": {
+      "subscribers": 621000,
+      "last_checked": "2026-05-28T17:23:28.636125",
+      "last_posted_day": "2026-05-28T17:23:28.636135"
+    },
+    "ニュイ・ソシエール": {
+      "subscribers": 693000,
+      "last_checked": "2026-05-26T06:56:29.824412",
+      "last_posted_day": "2026-05-26T06:56:29.824434"
+    },
+    "葉加瀬冬雪": {
+      "subscribers": 475000,
+      "last_checked": "2026-05-26T02:17:25.936207"
+    },
+    "加賀美ハヤト": {
+      "subscribers": 945000,
+      "last_checked": "2026-05-31T07:23:35.116584",
+      "last_posted_day": "2026-05-31T07:23:35.116589"
+    },
+    "夜見れな": {
+      "subscribers": 602000,
+      "last_checked": "2026-05-26T02:17:25.937295"
+    },
+    "アルス・アルマル": {
+      "subscribers": 872000,
+      "last_checked": "2026-05-26T02:17:25.938119"
+    },
+    "天宮こころ": {
+      "subscribers": 794000,
+      "last_checked": "2026-06-01T07:56:31.072090",
+      "last_posted_day": "2026-06-01T07:56:31.072100",
+      "last_post_fan": 794000
+    },
+    "エリー・コニファー": {
+      "subscribers": 246000,
+      "last_checked": "2026-05-26T02:17:25.939469"
+    },
+    "ラトナ・プティ": {
+      "subscribers": 628000,
+      "last_checked": "2026-05-26T02:17:25.940300"
+    },
+    "早瀬走": {
+      "subscribers": 293000,
+      "last_checked": "2026-05-26T02:17:25.941050"
+    },
+    "健屋花那": {
+      "subscribers": 642000,
+      "last_checked": "2026-05-26T02:17:25.941550"
+    },
+    "シェリン・バーガンディ": {
+      "subscribers": 409000,
+      "last_checked": "2026-05-26T02:17:25.942026"
+    },
+    "フミ": {
+      "subscribers": 272000,
+      "last_checked": "2026-05-26T02:17:25.942731"
+    },
+    "星川サラ": {
+      "subscribers": 1200000,
+      "last_checked": "2026-05-26T02:17:25.944099"
+    },
+    "山神カルタ": {
+      "subscribers": 285000,
+      "last_checked": "2026-05-31T07:23:57.251461",
+      "last_posted_day": "2026-05-31T07:23:57.251469"
+    },
+    "えま★おうがすと": {
+      "subscribers": 232000,
+      "last_checked": "2026-05-26T02:17:25.945829"
+    },
+    "ルイス・キャミー": {
+      "subscribers": 257000,
+      "last_checked": "2026-05-26T02:17:25.946666"
+    },
+    "魔使マオ": {
+      "subscribers": 311000,
+      "last_checked": "2026-06-01T21:45:39.518165",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "不破湊": {
+      "subscribers": 1190000,
+      "last_checked": "2026-05-26T02:17:25.948234"
+    },
+    "白雪巴": {
+      "subscribers": 458000,
+      "last_checked": "2026-06-01T01:23:31.035921"
+    },
+    "ましろ": {
+      "subscribers": 600000,
+      "last_checked": "2026-05-31T17:23:28.381604",
+      "last_posted_day": "2026-05-31T17:23:28.381612"
+    },
+    "来栖夏芽": {
+      "subscribers": 261000,
+      "last_checked": "2026-05-26T02:17:25.950197"
+    },
+    "フレン・E・ルスタリオ": {
+      "subscribers": 822000,
+      "last_checked": "2026-05-28T19:23:31.193808"
+    },
+    "イブラヒム": {
+      "subscribers": 894000,
+      "last_checked": "2026-05-29T06:23:27.698304"
+    },
+    "長尾景": {
+      "subscribers": 540000,
+      "last_checked": "2026-05-30T05:23:28.449409",
+      "last_posted_day": "2026-05-30T05:23:28.449418"
+    },
+    "弦月藤士郎": {
+      "subscribers": 392000,
+      "last_checked": "2026-05-26T02:17:25.952309"
+    },
+    "甲斐田晴": {
+      "subscribers": 730000,
+      "last_checked": "2026-05-29T10:23:27.759872",
+      "last_posted_day": "2026-05-29T10:23:27.759884"
+    },
+    "空星きらめ": {
+      "subscribers": 205000,
+      "last_checked": "2026-05-26T02:17:25.953424"
+    },
+    "周央サンゴ": {
+      "subscribers": 665000,
+      "last_checked": "2026-05-29T01:23:24.565809",
+      "last_posted_day": "2026-05-29T01:23:24.565817"
+    },
+    "東堂コハク": {
+      "subscribers": 198000,
+      "last_checked": "2026-05-26T02:17:25.954683"
+    },
+    "北小路ヒスイ": {
+      "subscribers": 325000,
+      "last_checked": "2026-05-31T19:23:31.617594",
+      "last_posted_day": "2026-05-31T19:23:31.617604"
+    },
+    "西園チグサ": {
+      "subscribers": 687000,
+      "last_checked": "2026-05-31T17:23:58.665341",
+      "last_posted_day": "2026-05-31T17:23:58.665348"
+    },
+    "ローレン・イロアス": {
+      "subscribers": 1030000,
+      "last_checked": "2026-05-26T02:17:25.957557"
+    },
+    "レオス・ヴィンセント": {
+      "subscribers": 509000,
+      "last_checked": "2026-05-26T02:17:25.958189"
+    },
+    "オリバー・エバンス": {
+      "subscribers": 355000,
+      "last_checked": "2026-05-26T02:17:25.958829"
+    },
+    "レイン・パターソン": {
+      "subscribers": 455000,
+      "last_checked": "2026-05-26T02:17:25.959402"
+    },
+    "天ヶ瀬むゆ": {
+      "subscribers": 139000,
+      "last_checked": "2026-05-26T02:17:25.959991"
+    },
+    "先斗寧": {
+      "subscribers": 309000,
+      "last_checked": "2026-05-28T09:24:05.680175",
+      "last_posted_day": "2026-05-28T09:24:05.680184"
+    },
+    "海妹四葉": {
+      "subscribers": 265000,
+      "last_checked": "2026-05-31T21:23:31.544850",
+      "last_posted_day": "2026-05-31T21:23:31.544861"
+    },
+    "壱百満天原サロメ": {
+      "subscribers": 1800000,
+      "last_checked": "2026-05-26T02:17:25.961875"
+    },
+    "風楽奏斗": {
+      "subscribers": 403000,
+      "last_checked": "2026-05-31T18:23:27.528842",
+      "last_posted_day": "2026-05-31T18:23:27.528847"
+    },
+    "渡会雲雀": {
+      "subscribers": 633000,
+      "last_checked": "2026-05-31T02:23:30.102633",
+      "last_posted_day": "2026-05-31T02:23:30.102643"
+    },
+    "四季凪アキラ": {
+      "subscribers": 478000,
+      "last_checked": "2026-05-29T12:23:29.041047"
+    },
+    "セラフ・ダズルガーデン": {
+      "subscribers": 404000,
+      "last_checked": "2026-05-31T04:23:29.720386"
+    },
+    "小清水透": {
+      "subscribers": 378000,
+      "last_checked": "2026-05-30T16:23:29.994761"
+    },
+    "獅子堂あかり": {
+      "subscribers": 329000,
+      "last_checked": "2026-05-29T19:23:35.963806",
+      "last_posted_day": "2026-05-29T19:23:35.963815"
+    },
+    "鏑木ろこ": {
+      "subscribers": 247000,
+      "last_checked": "2026-05-26T02:17:25.966102"
+    },
+    "五十嵐梨花": {
+      "subscribers": 330000,
+      "last_checked": "2026-06-02T05:00:38.087926",
+      "last_posted_day": "2026-06-02T05:00:38.087937",
+      "last_post_fan": 330000
+    },
+    "石神のぞみ": {
+      "subscribers": 401000,
+      "last_checked": "2026-06-01T04:23:30.667823",
+      "last_posted_day": "2026-05-30T21:23:27.498493"
+    },
+    "ソフィア・ヴァレンタイン": {
+      "subscribers": 393000,
+      "last_checked": "2026-05-28T03:24:10.460483",
+      "last_posted_day": "2026-05-28T03:24:10.460492"
+    },
+    "倉持めると": {
+      "subscribers": 277000,
+      "last_checked": "2026-05-29T20:23:31.440500",
+      "last_posted_day": "2026-05-29T20:23:31.440512"
+    },
+    "佐伯イッテツ": {
+      "subscribers": 388000,
+      "last_checked": "2026-05-30T05:23:28.449536"
+    },
+    "赤城ウェン": {
+      "subscribers": 333000,
+      "last_checked": "2026-05-27T08:24:10.034353",
+      "last_posted_day": "2026-05-27T08:24:10.034370"
+    },
+    "宇佐美リト": {
+      "subscribers": 347000,
+      "last_checked": "2026-05-30T14:23:56.898577",
+      "last_posted_day": "2026-05-30T14:23:56.898584"
+    },
+    "緋八マナ": {
+      "subscribers": 398000,
+      "last_checked": "2026-05-31T00:23:29.001945"
+    },
+    "星導ショウ": {
+      "subscribers": 455000,
+      "last_checked": "2026-06-01T00:23:28.673168",
+      "last_posted_day": "2026-06-01T00:23:28.673179"
+    },
+    "叢雲カゲツ": {
+      "subscribers": 370000,
+      "last_checked": "2026-05-28T14:23:32.802428",
+      "last_posted_day": "2026-05-28T14:23:32.802437"
+    },
+    "小柳ロウ": {
+      "subscribers": 476000,
+      "last_checked": "2026-05-31T16:23:27.267277"
+    },
+    "伊波ライ": {
+      "subscribers": 392000,
+      "last_checked": "2026-05-31T02:23:30.102749"
+    },
+    "立伝都々": {
+      "subscribers": 167000,
+      "last_checked": "2026-06-01T13:15:41.481621",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "栞葉るり": {
+      "subscribers": 455000,
+      "last_checked": "2026-05-27T04:23:58.856446",
+      "last_posted_day": "2026-05-27T04:23:58.856466"
+    },
+    "ミラン・ケストレル": {
+      "subscribers": 297000,
+      "last_checked": "2026-05-26T02:17:25.976578"
+    },
+    "北見遊征": {
+      "subscribers": 268000,
+      "last_checked": "2026-05-28T04:23:26.580659"
+    },
+    "魁星": {
+      "subscribers": 350000,
+      "last_checked": "2026-05-30T09:24:37.215897",
+      "last_posted_day": "2026-05-30T09:24:37.215906"
+    },
+    "榊ネス": {
+      "subscribers": 333000,
+      "last_checked": "2026-05-28T14:24:14.977554",
+      "last_posted_day": "2026-05-28T14:24:14.977565"
+    },
+    "司賀りこ": {
+      "subscribers": 225000,
+      "last_checked": "2026-05-29T10:24:02.982449",
+      "last_posted_day": "2026-05-29T10:24:02.982456"
+    },
+    "珠乃井ナナ": {
+      "subscribers": 324000,
+      "last_checked": "2026-06-01T10:46:13.608050",
+      "last_posted_day": "2026-06-01T10:46:13.608059",
+      "last_post_fan": 324000
+    },
+    "綺沙良": {
+      "subscribers": 203000,
+      "last_checked": "2026-05-29T11:23:28.515096",
+      "last_posted_day": "2026-05-29T11:23:28.515107"
+    },
+    "梢桃音": {
+      "subscribers": 144000,
+      "last_checked": "2026-05-26T18:11:02.923952"
+    },
+    "ルンルン": {
+      "subscribers": 898000,
+      "last_checked": "2026-05-30T11:23:27.379289"
+    },
+    "七瀬すず菜": {
+      "subscribers": 273000,
+      "last_checked": "2026-06-01T02:23:37.168190",
+      "last_posted_day": "2026-06-01T02:23:37.168200"
+    },
+    "早乙女ベリー": {
+      "subscribers": 262000,
+      "last_checked": "2026-05-31T09:23:26.181539"
+    },
+    "雲母たまこ": {
+      "subscribers": 177000,
+      "last_checked": "2026-05-29T13:25:05.026832",
+      "last_posted_day": "2026-05-29T13:25:05.026843"
+    },
+    "酒寄颯馬": {
+      "subscribers": 242000,
+      "last_checked": "2026-06-01T13:30:51.220911",
+      "last_posted_day": "2026-06-01T13:30:51.220922",
+      "last_post_fan": 242000
+    },
+    "渚トラウト": {
+      "subscribers": 264000,
+      "last_checked": "2026-06-01T07:57:03.444767",
+      "last_posted_day": "2026-06-01T07:57:03.444777",
+      "last_post_fan": 264000
+    },
+    "一橋綾人": {
+      "subscribers": 201000,
+      "last_checked": "2026-05-27T12:24:28.686753",
+      "last_posted_day": "2026-05-27T12:24:28.686771"
+    },
+    "五木左京": {
+      "subscribers": 151000,
+      "last_checked": "2026-05-28T12:23:32.632966",
+      "last_posted_day": "2026-05-28T12:23:32.632975"
+    },
+    "十河ののは": {
+      "subscribers": 98300,
+      "last_checked": "2026-06-01T16:30:47.925658",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "夜牛詩乃": {
+      "subscribers": 72700,
+      "last_checked": "2026-05-26T02:17:25.989457"
+    },
+    "蝸堂みかる": {
+      "subscribers": 105000,
+      "last_checked": "2026-06-01T16:16:39.758807",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "猫屋敷美紅": {
+      "subscribers": 121000,
+      "last_checked": "2026-05-31T14:24:09.932040",
+      "last_posted_day": "2026-05-31T14:24:09.932050"
+    },
+    "皇れお": {
+      "subscribers": 108000,
+      "last_checked": "2026-05-26T02:17:25.991720"
+    },
+    "篠宮ゆの": {
+      "subscribers": 94500,
+      "last_checked": "2026-05-26T02:17:25.992533"
+    },
+    "城瀬いすみ": {
+      "subscribers": 116000,
+      "last_checked": "2026-06-01T06:52:08.547921",
+      "last_posted_day": "2026-06-01T06:52:08.547932"
+    },
+    "花籠つばさ": {
+      "subscribers": 104000,
+      "last_checked": "2026-05-31T17:23:58.665425"
+    },
+    "白砂あやね": {
+      "subscribers": 109000,
+      "last_checked": "2026-06-01T18:00:50.876620",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "水面まどか": {
+      "subscribers": 113000,
+      "last_checked": "2026-05-29T11:24:07.765655",
+      "last_posted_day": "2026-05-29T11:24:07.765663"
+    },
+    "男虎": {
+      "subscribers": 87100,
+      "last_checked": "2026-06-02T00:15:33.218249",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "九里詠太": {
+      "subscribers": 56500,
+      "last_checked": "2026-05-26T02:17:25.997391"
+    },
+    "小々波いるか": {
+      "subscribers": 63800,
+      "last_checked": "2026-05-26T02:17:25.998145"
+    },
+    "千凛あゆむ": {
+      "subscribers": 86500,
+      "last_checked": "2026-06-01T16:30:47.925708",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "塚原大地": {
+      "subscribers": 90300,
+      "last_checked": "2026-05-31T02:24:16.427374",
+      "last_posted_day": "2026-05-31T02:24:16.427383"
+    },
+    "御子神琴音": {
+      "subscribers": 128000,
+      "last_checked": "2026-06-01T16:02:04.547169",
+      "last_posted_day": "2026-06-01T16:02:04.547178",
+      "last_post_fan": 128000
+    },
+    "Rei7": {
+      "subscribers": 111000,
+      "last_checked": "2026-05-31T14:24:49.259216",
+      "last_posted_day": "2026-05-31T14:24:49.259227"
+    },
+    "レヨン": {
+      "subscribers": 85800,
+      "last_checked": "2026-05-26T02:17:26.002482"
+    },
+    "ChroNoiR": {
+      "subscribers": 1320000,
+      "last_checked": "2026-05-30T13:23:50.559374",
+      "last_posted_day": "2026-05-30T13:23:50.559383"
+    },
+    "さくゆい": {
+      "subscribers": 179000,
+      "last_checked": "2026-05-26T02:17:26.004135"
+    },
+    "VΔLZ": {
+      "subscribers": 235000,
+      "last_checked": "2026-05-26T02:17:26.005107"
+    },
+    "ROF-MAO": {
+      "subscribers": 1340000,
+      "last_checked": "2026-05-28T15:23:58.539505",
+      "last_posted_day": "2026-05-28T15:23:58.539513"
+    },
+    "Nornis": {
+      "subscribers": 234000,
+      "last_checked": "2026-05-26T02:17:26.006788"
+    },
+    "VOLTACTION": {
+      "subscribers": 861000,
+      "last_checked": "2026-06-01T10:00:57.464109",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "Idios": {
+      "subscribers": 57100,
+      "last_checked": "2026-05-26T02:17:26.008534"
+    },
+    "Oriens": {
+      "subscribers": 234000,
+      "last_checked": "2026-05-26T02:17:26.009353"
+    },
+    "七次元生徒会！": {
+      "subscribers": 548000,
+      "last_checked": "2026-05-30T00:23:27.126482"
+    },
+    "3SKM": {
+      "subscribers": 427000,
+      "last_checked": "2026-05-31T07:24:40.442643",
+      "last_posted_day": "2026-05-31T07:24:40.442651"
+    },
+    "いずれ菖蒲か杜若": {
+      "subscribers": 141000,
+      "last_checked": "2026-05-28T12:23:53.901388",
+      "last_posted_day": "2026-05-28T12:23:53.901396"
+    },
+    "Speciale": {
+      "subscribers": 156000,
+      "last_checked": "2026-06-01T06:52:43.881499",
+      "last_posted_day": "2026-06-01T06:52:43.881512"
+    },
+    "今宵、××と夢を見る。": {
+      "subscribers": 59300,
+      "last_checked": "2026-05-26T02:17:26.013978"
+    },
+    "すぷれあ": {
+      "subscribers": 149000,
+      "last_checked": "2026-06-01T03:23:29.407037",
+      "last_posted_day": null
+    },
+    "Cellmates": {
+      "subscribers": 367000,
+      "last_checked": "2026-06-01T23:30:56.741790",
+      "last_posted_day": "2026-06-01T12:30:51.396840",
+      "last_post_fan": 366000
+    },
+    "あるてぃめっとくりえいたーず": {
+      "subscribers": 94100,
+      "last_checked": "2026-06-02T05:00:38.088083",
+      "last_posted_day": null,
+      "last_post_fan": null
+    },
+    "2時から3時のしぇあはうす": {
+      "subscribers": 79400,
+      "last_checked": "2026-05-31T12:23:25.965401",
+      "last_posted_day": "2026-05-31T12:23:25.965411"
+    },
+    "にじさんじ": {
+      "subscribers": 1980000,
+      "last_checked": "2026-05-26T07:08:13.432671",
+      "last_posted_day": "2026-05-26T07:08:13.432688"
+    }
+  }
+}
