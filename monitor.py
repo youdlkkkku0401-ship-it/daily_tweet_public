@@ -93,8 +93,6 @@ def post_to_buffer(post_content):
         json = {"query": query},
         timeout = 30
         )
-    return
-
     response.raise_for_status()
     data = response.json()
     print(data)
