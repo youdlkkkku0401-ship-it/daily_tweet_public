@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T13:13:26.165967",
+  "last_updated": "2026-06-02T13:39:23.882970",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -630,8 +630,10 @@
       "last_posted_day": "2026-05-31T14:24:09.932050"
     },
     "皇れお": {
-      "subscribers": 108000,
-      "last_checked": "2026-05-26T02:17:25.991720"
+      "subscribers": 109000,
+      "last_checked": "2026-06-02T13:39:23.882955",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "篠宮ゆの": {
       "subscribers": 94500,
