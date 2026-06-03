@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T18:00:44.229883",
+  "last_updated": "2026-06-03T22:52:24.895593",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -713,8 +713,10 @@
       "last_checked": "2026-05-26T02:17:25.997391"
     },
     "小々波いるか": {
-      "subscribers": 63800,
-      "last_checked": "2026-05-26T02:17:25.998145"
+      "subscribers": 64800,
+      "last_checked": "2026-06-03T22:52:24.895578",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "千凛あゆむ": {
       "subscribers": 86500,
