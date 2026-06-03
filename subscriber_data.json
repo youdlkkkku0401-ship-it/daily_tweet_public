@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T09:13:29.189158",
+  "last_updated": "2026-06-03T09:26:31.129858",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -309,8 +309,10 @@
       "last_checked": "2026-05-26T02:17:25.942731"
     },
     "星川サラ": {
-      "subscribers": 1200000,
-      "last_checked": "2026-05-26T02:17:25.944099"
+      "subscribers": 1210000,
+      "last_checked": "2026-06-03T09:26:31.129842",
+      "last_posted_day": "2026-06-03T09:26:31.129853",
+      "last_post_fan": 1210000
     },
     "山神カルタ": {
       "subscribers": 285000,
