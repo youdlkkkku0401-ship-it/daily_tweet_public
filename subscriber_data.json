@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T06:13:26.740537",
+  "last_updated": "2026-06-03T07:13:20.351410",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -660,8 +660,10 @@
       "last_posted_day": "2026-06-01T06:52:08.547932"
     },
     "花籠つばさ": {
-      "subscribers": 104000,
-      "last_checked": "2026-05-31T17:23:58.665425"
+      "subscribers": 105000,
+      "last_checked": "2026-06-03T07:13:20.351398",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "白砂あやね": {
       "subscribers": 109000,
