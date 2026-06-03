@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T15:52:30.828634",
+  "last_updated": "2026-06-03T17:39:28.824032",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -244,8 +244,10 @@
       "last_checked": "2026-05-26T02:17:25.934092"
     },
     "エクス・アルビオ": {
-      "subscribers": 566000,
-      "last_checked": "2026-05-29T17:23:28.086152"
+      "subscribers": 567000,
+      "last_checked": "2026-06-03T17:39:28.823892",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "レヴィ・エリファ": {
       "subscribers": 371000,
@@ -825,8 +827,8 @@
       "last_post_fan": null
     },
     "2時から3時のしぇあはうす": {
-      "subscribers": 80400,
-      "last_checked": "2026-06-02T10:26:31.042307",
+      "subscribers": 81400,
+      "last_checked": "2026-06-03T17:39:28.824026",
       "last_posted_day": "2026-05-31T12:23:25.965411",
       "last_post_fan": null
     },
