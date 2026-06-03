@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T14:13:26.679558",
+  "last_updated": "2026-06-03T14:39:30.183334",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -563,8 +563,10 @@
       "last_post_fan": 298000
     },
     "北見遊征": {
-      "subscribers": 268000,
-      "last_checked": "2026-05-28T04:23:26.580659"
+      "subscribers": 269000,
+      "last_checked": "2026-06-03T14:39:30.183322",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "魁星": {
       "subscribers": 350000,
