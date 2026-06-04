@@ -144,7 +144,7 @@ def check_subscriber_increases():
 
         #ツイート条件設定
         post_content = None
-        if increase >= 1000:
+        if increase >　0:
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
                 current_million = current_subscribers // 100000 * 10
