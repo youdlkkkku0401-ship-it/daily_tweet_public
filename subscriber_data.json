@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T05:39:23.902466",
+  "last_updated": "2026-06-04T06:00:41.722059",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1500000,
@@ -315,8 +315,10 @@
       "last_post_fan": 246000
     },
     "ラトナ・プティ": {
-      "subscribers": 628000,
-      "last_checked": "2026-05-26T02:17:25.940300"
+      "subscribers": 629000,
+      "last_checked": "2026-06-04T06:00:41.722044",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "早瀬走": {
       "subscribers": 293000,
