@@ -143,76 +143,75 @@ def check_subscriber_increases():
         Kdigit = (current_subscribers // 1000) % 10 #1000の位
 
         #ツイート条件設定
-        if increase >= 1000:
-            post_content = None
-            #10万人突破
-            if previous_subscribers // 100000  < current_subscribers // 100000:
-                current_million = current_subscribers // 100000 * 10
-                post_content = f"#{channel_name} さんが登録者 {current_million}万人 を達成しました！🎉"
+        post_content = None
+        #10万人突破
+        if previous_subscribers // 100000  < current_subscribers // 100000:
+            current_million = current_subscribers // 100000 * 10
+            post_content = f"#{channel_name} さんが登録者 {current_million}万人 を達成しました！🎉"
 
-            #2K以上または奇数の時
-            #elif (over2K or Kdigit%2 == 1 or Kdigit==0):
-            elif (over2K or current_subscribers % 2000 == 0):
-                #投稿差分計算(+***人
-                last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
-                if last_post_fan:
-                    post_increase = current_subscribers - last_post_fan
-                else:
-                    post_increase = increase
+        #2K以上または奇数の時
+        #elif (over2K or Kdigit%2 == 1 or Kdigit==0):
+        elif (over2K or current_subscribers % 2000 == 0):
+            #投稿差分計算(+***人
+            last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
+            if last_post_fan:
+                post_increase = current_subscribers - last_post_fan
+            else:
+                post_increase = increase
 
-                #日付計算/*日)
-                last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
-                if last_posted_day:
-                    last_posted_dt = datetime.fromisoformat(last_posted_day)
-                    delta = datetime.now() - last_posted_dt
-                    days = delta.days
-                    elapsed_text = f"(+{post_increase}人/{days}日)"
-                else:
-                    last_count_day = datetime(2026, 6, 1)
-                    delta = datetime.now() - last_count_day
-                    days = delta.days
-                    elapsed_text = f"(+{post_increase}人/{days}日以上)"
-                    
-                #ツイッター投稿テキスト
-                post_content = (f" {channel_name} さん\n"
-                                f"登録者数が {current_subscribers_comma}人 に到達しました\n"
-                                f"{elapsed_text}")
-                post_content += "\u200b" * random.randint(1, 2)
+            #日付計算/*日)
+            last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
+            if last_posted_day:
+                last_posted_dt = datetime.fromisoformat(last_posted_day)
+                delta = datetime.now() - last_posted_dt
+                days = delta.days
+                elapsed_text = f"(+{post_increase}人/{days}日)"
+            else:
+                last_count_day = datetime(2026, 6, 1)
+                delta = datetime.now() - last_count_day
+                days = delta.days
+                elapsed_text = f"(+{post_increase}人/{days}日以上)"
+                
+            #ツイッター投稿テキスト
+            post_content = (f" {channel_name} さん\n"
+                            f"登録者数が {current_subscribers_comma}人 に到達しました\n"
+                            f"{elapsed_text}")
+            post_content += "\u200b" * random.randint(1, 2)
 
-            try:
-                if post_content:
-                    # API呼び出し制限対策4分割
-                    if p >= 1:
-                        time.sleep(random.randint(20, 50))
-                    p += 1
-                    print(f"{channel_name} : {current_subscribers}人（＋{increase}人）")
-                    
-                    ##### Buffer,Discordに送信 #####
-                    post_to_buffer(post_content)
-                    send_discord_notification(post_content)
-                    
-                    # データを更新
-                    subscriber_data["channels"][channel_name] = {
-                        "subscribers": current_subscribers,
-                        "last_checked": datetime.now().isoformat(),
-                        "last_posted_day": datetime.now().isoformat(),
-                        "last_post_fan": current_subscribers
-                    }
-                else:
-                    # データを更新
-                    print(f"{channel_name} : 投稿無",flush=True)
-                    subscriber_data["channels"][channel_name] = {
-                        "subscribers": current_subscribers,
-                        "last_checked": datetime.now().isoformat(),
-                        "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
-                        "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
-                    }
-            except Exception as e:
-                print(f"Buffer投稿エラー：{e}")
-                send_discord_notification(traceback.format_exc())
-                raise e
-            
-            subscriber_data["last_updated"] = datetime.now().isoformat()
+        try:
+            if post_content:
+                # API呼び出し制限対策4分割
+                if p >= 1:
+                    time.sleep(random.randint(20, 50))
+                p += 1
+                print(f"{channel_name} : {current_subscribers}人（＋{increase}人）")
+                
+                ##### Buffer,Discordに送信 #####
+                post_to_buffer(post_content)
+                send_discord_notification(post_content)
+                
+                # データを更新
+                subscriber_data["channels"][channel_name] = {
+                    "subscribers": current_subscribers,
+                    "last_checked": datetime.now().isoformat(),
+                    "last_posted_day": datetime.now().isoformat(),
+                    "last_post_fan": current_subscribers
+                }
+            else:
+                # データを更新
+                print(f"{channel_name} : 投稿無",flush=True)
+                subscriber_data["channels"][channel_name] = {
+                    "subscribers": current_subscribers,
+                    "last_checked": datetime.now().isoformat(),
+                    "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
+                    "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
+                }
+        except Exception as e:
+            print(f"Buffer投稿エラー：{e}")
+            send_discord_notification(traceback.format_exc())
+            raise e
+        
+        subscriber_data["last_updated"] = datetime.now().isoformat()
 
     save_subscriber_data(subscriber_data)
 
