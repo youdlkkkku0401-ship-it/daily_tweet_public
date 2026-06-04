@@ -167,11 +167,15 @@
     },
     "鷹宮リオン": {
       "subscribers": 555000,
-      "last_checked": "2026-05-26T02:17:25.926104"
+      "last_checked": "2026-05-26T02:17:25.926104",
+      "last_posted_day": "2026-05-25T02:17:25.926104",
+      "last_post_fan": 555000
     },
     "舞元啓介": {
       "subscribers": 461000,
-      "last_checked": "2026-05-26T02:17:25.926433"
+      "last_checked": "2026-05-26T02:17:25.926433",
+      "last_posted_day": "2026-05-25T02:17:25.926433",
+      "last_post_fan": 461000
     },
     "竜胆尊": {
       "subscribers": 593000,
@@ -798,7 +802,9 @@
     },
     "Nornis": {
       "subscribers": 234000,
-      "last_checked": "2026-05-26T02:17:26.006788"
+      "last_checked": "2026-05-26T02:17:26.006788",
+      "last_posted_day": "2026-05-25T02:17:26.006788",
+      "last_post_fan": 234000
     },
     "VOLTACTION": {
       "subscribers": 861000,
