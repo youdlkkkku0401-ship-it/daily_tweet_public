@@ -144,15 +144,15 @@ def check_subscriber_increases():
 
         #ツイート条件設定
         post_content = None
-        if increase > 0:
+        if increase > 1000:
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
                 current_million = current_subscribers // 100000 * 10
                 post_content = f"#{channel_name} さんが登録者 {current_million}万人 を達成しました！🎉"
     
             #2K以上または奇数の時
-            #elif (over2K or Kdigit%2 == 1 or Kdigit==0):
-            elif (over2K or current_subscribers % 2000 == 0):
+            elif (over2K or Kdigit%2 == 1):
+            #elif (over2K or current_subscribers % 2000 == 0):
                 #投稿差分計算(+***人
                 last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
                 if last_post_fan:
