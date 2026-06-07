@@ -151,7 +151,7 @@ def check_subscriber_increases():
                 post_content = f"#{channel_name} さんが登録者 {current_million}万人 を達成しました！🎉"
     
             #2K以上または奇数の時
-            elif (over2K or (Kdigit%2 == 1 and increase >= 1000):
+            elif (over2K or increase%2000 == 1000):
             #elif (over2K or current_subscribers % 2000 == 0):
                 #投稿差分計算(+***人
                 last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
