@@ -146,12 +146,12 @@ def check_subscriber_increases():
         post_content = None
         if increase > 0:
             #10万人突破
-            if previous_subscribers / 100000  < current_subscribers / 100000:
+            if previous_subscribers // 100000  < current_subscribers // 100000:
                 current_million = current_subscribers // 100000 * 10
                 post_content = f"#{channel_name} さんが登録者 {current_million}万人 を達成しました！🎉"
                 
             #1万人達成
-            elif previous_subscribers / 10000  < current_subscribers / 10000:
+            elif previous_subscribers // 10000  < current_subscribers // 10000:
                 current_man = current_subscribers // 10000
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
     
