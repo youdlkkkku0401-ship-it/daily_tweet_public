@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T04:39:21.497731",
+  "last_updated": "2026-06-12T05:39:25.609037",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1510000,
@@ -1023,8 +1023,10 @@
       "last_checked": "2026-06-12T01:39:23.229322"
     },
     "류하리（リュ ハリ / Ryu Hari）": {
-      "subscribers": 43800,
-      "last_checked": "2026-06-12T01:39:23.230484"
+      "subscribers": 43900,
+      "last_checked": "2026-06-12T05:39:23.985779",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "오지유（オ ジユ / Oh Jiyu）": {
       "subscribers": 60300,
@@ -1101,8 +1103,10 @@
       "last_checked": "2026-06-12T01:39:23.252261"
     },
     "Scarle Yonaguni（スカーレ ヨナグニ）": {
-      "subscribers": 356000,
-      "last_checked": "2026-06-12T01:39:23.253455"
+      "subscribers": 357000,
+      "last_checked": "2026-06-12T05:39:25.609025",
+      "last_posted_day": "2026-06-12T05:39:25.609033",
+      "last_post_fan": 357000
     },
     "Doppio Dropscythe（ドッピオ ドロップサイト）": {
       "subscribers": 260000,
