@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T11:13:26.357245",
+  "last_updated": "2026-06-13T11:39:19.536461",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1510000,
@@ -820,8 +820,8 @@
       "last_post_fan": 115000
     },
     "男虎": {
-      "subscribers": 94500,
-      "last_checked": "2026-06-13T06:39:57.141455",
+      "subscribers": 94600,
+      "last_checked": "2026-06-13T11:39:19.536376",
       "last_posted_day": "2026-06-08T11:26:23.129450",
       "last_post_fan": 93000
     },
@@ -862,8 +862,8 @@
       "last_post_fan": 120000
     },
     "レヨン": {
-      "subscribers": 87200,
-      "last_checked": "2026-06-12T13:13:25.019626",
+      "subscribers": 87300,
+      "last_checked": "2026-06-13T11:39:19.536400",
       "last_posted_day": "2026-06-10T10:00:48.654698",
       "last_post_fan": 87000
     },
@@ -1149,8 +1149,10 @@
       "last_checked": "2026-06-12T01:39:23.262074"
     },
     "Ryoma Barrenwort（凉舞 バレンウォート）": {
-      "subscribers": 73900,
-      "last_checked": "2026-06-12T01:39:23.263339"
+      "subscribers": 74000,
+      "last_checked": "2026-06-13T11:39:19.536458",
+      "last_posted_day": null,
+      "last_post_fan": null
     },
     "Klara Charmwood（クララ チャームウッド）": {
       "subscribers": 103000,
