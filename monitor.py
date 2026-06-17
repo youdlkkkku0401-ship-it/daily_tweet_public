@@ -183,6 +183,23 @@ def check_subscriber_increases():
                                 f"登録者数が {current_subscribers_comma}人 に到達しました\n"
                                 f"{elapsed_text}")
                 post_content += "\u200b" * random.randint(1, 2)
+                
+                # データを更新
+                subscriber_data["channels"][channel_name] = {
+                    "subscribers": current_subscribers,
+                    "last_checked": datetime.now().isoformat(),
+                    "last_posted_day": datetime.now().isoformat(),
+                    "last_post_fan": current_subscribers
+                }
+            else:
+                # データを更新
+                print(f"{channel_name} : 投稿無",flush=True)
+                subscriber_data["channels"][channel_name] = {
+                    "subscribers": current_subscribers,
+                    "last_checked": datetime.now().isoformat(),
+                    "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
+                    "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
+                }
     
             try:
                 if post_content:
@@ -195,23 +212,7 @@ def check_subscriber_increases():
                     ##### Buffer,Discordに送信 #####
                     post_to_buffer(post_content)
                     send_discord_notification(post_content)
-                    
-                    # データを更新
-                    subscriber_data["channels"][channel_name] = {
-                        "subscribers": current_subscribers,
-                        "last_checked": datetime.now().isoformat(),
-                        "last_posted_day": datetime.now().isoformat(),
-                        "last_post_fan": current_subscribers
-                    }
-                else:
-                    # データを更新
-                    print(f"{channel_name} : 投稿無",flush=True)
-                    subscriber_data["channels"][channel_name] = {
-                        "subscribers": current_subscribers,
-                        "last_checked": datetime.now().isoformat(),
-                        "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
-                        "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
-                    }
+                
             except Exception as e:
                 print(f"Buffer投稿エラー：{e}")
                 send_discord_notification(traceback.format_exc())
