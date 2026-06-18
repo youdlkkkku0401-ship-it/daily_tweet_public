@@ -144,6 +144,8 @@ def check_subscriber_increases():
 
         #ツイート条件設定
         post_content = None
+        #データ取得
+        channel_data = subscriber_data["channels"].get(channel_name, {})
         if increase > 0:
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
@@ -185,21 +187,12 @@ def check_subscriber_increases():
                 post_content += "\u200b" * random.randint(1, 2)
                 
                 # データを更新
-                subscriber_data["channels"][channel_name] = {
-                    "subscribers": current_subscribers,
-                    "last_checked": datetime.now().isoformat(),
-                    "last_posted_day": datetime.now().isoformat(),
-                    "last_post_fan": current_subscribers
-                }
-            else:
-                # データを更新
-                print(f"{channel_name} : 投稿無",flush=True)
-                subscriber_data["channels"][channel_name] = {
-                    "subscribers": current_subscribers,
-                    "last_checked": datetime.now().isoformat(),
-                    "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
-                    "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
-                }
+                channel_data["last_posted_day"] = datetime.now().isoformat()
+                channel_data["last_post_fan"] = current_subscribers
+
+            # データ更新
+            channel_data["subscribers"] = current_subscribers
+            channel_data["last_checked"] = datetime.now().isoformat()
     
             try:
                 if post_content:
