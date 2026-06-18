@@ -210,7 +210,8 @@ def check_subscriber_increases():
                 print(f"Buffer投稿エラー：{e}")
                 send_discord_notification(traceback.format_exc())
                 raise e
-            
+                
+            subscriber_data["channels"][channel_name] = channel_data
             subscriber_data["last_updated"] = datetime.now().isoformat()
 
     save_subscriber_data(subscriber_data)
