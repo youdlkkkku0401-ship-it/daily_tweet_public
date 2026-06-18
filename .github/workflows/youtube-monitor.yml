@@ -1,7 +1,7 @@
 name: YouTube Subscriber Monitor
 
 on:
-  #workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   monitor:
