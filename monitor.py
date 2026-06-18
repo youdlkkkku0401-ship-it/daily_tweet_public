@@ -190,16 +190,15 @@ def check_subscriber_increases():
                     "last_checked": datetime.now().isoformat(),
                     "last_posted_day": datetime.now().isoformat(),
                     "last_post_fan": current_subscribers
-                }
-            else:
-                # データを更新
-                print(f"{channel_name} : 投稿無",flush=True)
-                subscriber_data["channels"][channel_name] = {
-                    "subscribers": current_subscribers,
-                    "last_checked": datetime.now().isoformat(),
-                    "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
-                    "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
-                }
+            }
+            # データを更新
+            print(f"{channel_name} : 投稿無",flush=True)
+            subscriber_data["channels"][channel_name] = {
+                "subscribers": current_subscribers,
+                "last_checked": datetime.now().isoformat(),
+                "last_posted_day": subscriber_data["channels"].get(channel_name, {}).get("last_posted_day"),
+                "last_post_fan": subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
+            }
     
             try:
                 if post_content:
