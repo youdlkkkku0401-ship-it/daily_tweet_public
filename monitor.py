@@ -190,7 +190,7 @@ def check_subscriber_increases():
                     "last_checked": datetime.now().isoformat(),
                     "last_posted_day": datetime.now().isoformat(),
                     "last_post_fan": current_subscribers
-            }
+                }
             # データを更新
             print(f"{channel_name} : 投稿無",flush=True)
             subscriber_data["channels"][channel_name] = {
