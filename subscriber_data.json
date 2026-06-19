@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T12:01:01.209259",
+  "last_updated": "2026-06-19T12:14:20.200160",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1510000,
@@ -476,10 +476,10 @@
       "last_post_fan": 205000
     },
     "周央サンゴ": {
-      "subscribers": 666000,
-      "last_checked": "2026-06-04T15:39:28.380792",
-      "last_posted_day": "2026-06-04T15:39:28.380799",
-      "last_post_fan": 666000
+      "subscribers": 667000,
+      "last_checked": "2026-06-19T12:13:23.456726",
+      "last_posted_day": "2026-06-19T12:13:23.456718",
+      "last_post_fan": 667000
     },
     "東堂コハク": {
       "subscribers": 201000,
@@ -728,10 +728,10 @@
       "last_post_fan": 279000
     },
     "早乙女ベリー": {
-      "subscribers": 270000,
-      "last_checked": "2026-06-19T12:00:57.280564",
-      "last_posted_day": "2026-06-17T05:13:25.355513",
-      "last_post_fan": 269000
+      "subscribers": 271000,
+      "last_checked": "2026-06-19T12:13:25.070533",
+      "last_posted_day": "2026-06-19T12:13:25.070531",
+      "last_post_fan": 271000
     },
     "雲母たまこ": {
       "subscribers": 182000,
@@ -1186,8 +1186,10 @@
       "last_post_fan": null
     },
     "Kaelix Debonair（ケイリクス・デボネア）": {
-      "subscribers": 224000,
-      "last_checked": "2026-06-12T01:39:23.269697"
+      "subscribers": 225000,
+      "last_checked": "2026-06-19T12:13:58.564073",
+      "last_posted_day": "2026-06-19T12:13:58.564071",
+      "last_post_fan": 225000
     }
   }
 }
