@@ -198,12 +198,13 @@ def check_subscriber_increases():
                     if p >= 1:
                         time.sleep(random.randint(20, 50))
                     p += 1
-                    print(f"{channel_name} : {current_subscribers}人（＋{increase}人）")
+                    print(f"投稿：{channel_name} : {current_subscribers}人（＋{increase}人）")
                     
                     ##### Buffer,Discordに送信 #####
                     post_to_buffer(post_content)
                     send_discord_notification(post_content)
-                
+                else:
+                    send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
             except Exception as e:
                 print(f"Buffer投稿エラー：{e}")
                 send_discord_notification(traceback.format_exc())
