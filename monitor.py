@@ -146,7 +146,7 @@ def check_subscriber_increases():
         post_content = None
         #データ取得
         channel_data = subscriber_data["channels"].get(channel_name, {})
-        if increase > 0:
+        if increase > 0 and current_subscribers%1000==0:
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
                 current_million = current_subscribers // 100000 * 10
@@ -186,13 +186,11 @@ def check_subscriber_increases():
                                 f"{elapsed_text}")
                 post_content += "\u200b" * random.randint(1, 2)
                 
-                # データを更新
-                channel_data["last_posted_day"] = datetime.now().isoformat()
-                channel_data["last_post_fan"] = current_subscribers
-
             # データ更新
             channel_data["subscribers"] = current_subscribers
             channel_data["last_checked"] = datetime.now().isoformat()
+            channel_data["last_posted_day"] = datetime.now().isoformat()
+            channel_data["last_post_fan"] = current_subscribers
     
             try:
                 if post_content:
