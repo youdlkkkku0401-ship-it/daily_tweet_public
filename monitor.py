@@ -192,6 +192,7 @@ def check_subscriber_increases():
             if current_subscribers%1000==0:
                 channel_data["last_posted_day"] = datetime.now().isoformat()
                 channel_data["last_post_fan"] = current_subscribers
+                send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
     
             try:
                 if post_content:
@@ -204,8 +205,7 @@ def check_subscriber_increases():
                     ##### Buffer,Discordに送信 #####
                     post_to_buffer(post_content)
                     send_discord_notification(post_content)
-                else:
-                    send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
+                    
             except Exception as e:
                 print(f"Buffer投稿エラー：{e}")
                 send_discord_notification(traceback.format_exc())
