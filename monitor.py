@@ -209,6 +209,7 @@ def check_subscriber_increases():
                     ##### Buffer,Discordに送信 #####
                     send_discord_notification(post_content)
                     post_to_buffer(post_content)
+                    
             
             
             except Exception as e:
@@ -221,6 +222,8 @@ def check_subscriber_increases():
                 
             subscriber_data["channels"][channel_name] = channel_data
             subscriber_data["last_updated"] = datetime.now().isoformat()
+        else:
+            post_to_buffer("test")
 
     save_subscriber_data(subscriber_data)
 
