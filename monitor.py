@@ -207,15 +207,18 @@ def check_subscriber_increases():
                     send_discord_notification(post_content)
                     post_to_buffer(post_content)
             
-            subscriber_data["channels"][channel_name] = channel_data
-            subscriber_data["last_updated"] = datetime.now().isoformat()
-
+            
             except Exception as e:
                 print(f"Buffer投稿エラー：{e}")
                 send_discord_notification(traceback.format_exc())
+                subscriber_data["channels"][channel_name] = channel_data
+                subscriber_data["last_updated"] = datetime.now().isoformat()
+
                 raise e
                 
-            
+            subscriber_data["channels"][channel_name] = channel_data
+            subscriber_data["last_updated"] = datetime.now().isoformat()
+
     save_subscriber_data(subscriber_data)
 
 
