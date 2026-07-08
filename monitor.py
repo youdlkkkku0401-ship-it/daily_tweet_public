@@ -84,7 +84,7 @@ def post_to_buffer(post_content):
         f'... on MutationError {{ message }} '
         f'}} }}'
     )
-    print(query)
+    print(f"query = {query}", flush=True)
     response = requests.post(
         "https://api.buffer.com/graphql",
         headers = {
@@ -97,8 +97,8 @@ def post_to_buffer(post_content):
     response.raise_for_status()
     data = response.json()
     print(data)
-    print(response.status_code)
-    print(response.text)
+    print(response.status_code, flush=True)
+    print(response.text, flush=True)
 
     if "errors" in data:
         raise Exception(str(data["errors"]))
