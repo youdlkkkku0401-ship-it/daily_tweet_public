@@ -248,7 +248,7 @@ def check_subscriber_increases():
             subscriber_data["last_updated"] = datetime.now().isoformat()
 
     save_subscriber_data(subscriber_data)
-
+    post_to_buffer("test")
 
 if __name__ == "__main__":
     try:
