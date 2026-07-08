@@ -218,8 +218,6 @@ def check_subscriber_increases():
                 subscriber_data["last_updated"] = datetime.now().isoformat()
                 send_discord_notification(datetime.now().isoformat())
                 save_subscriber_data(subscriber_data)
-
-                raise e
                 
             subscriber_data["channels"][channel_name] = channel_data
             subscriber_data["last_updated"] = datetime.now().isoformat()
