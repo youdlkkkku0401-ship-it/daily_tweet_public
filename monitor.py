@@ -84,6 +84,7 @@ def post_to_buffer(post_content):
         f'... on MutationError {{ message }} '
         f'}} }}'
     )
+    print(query)
     response = requests.post(
         "https://api.buffer.com/graphql",
         headers = {
@@ -96,6 +97,8 @@ def post_to_buffer(post_content):
     response.raise_for_status()
     data = response.json()
     print(data)
+    print(response.status_code)
+    print(response.text)
 
     if "errors" in data:
         raise Exception(str(data["errors"]))
@@ -205,6 +208,7 @@ def check_subscriber_increases():
                     
                     ##### Buffer,Discordに送信 #####
                     send_discord_notification(post_content)
+                    
                     post_to_buffer(post_content)
             
             
