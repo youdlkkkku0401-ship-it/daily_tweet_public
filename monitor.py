@@ -78,7 +78,7 @@ def post_to_buffer(post_content):
         f'text: {json.dumps(post_content)} '
         f'channelId: "{profile_id}" '
         f'schedulingType: automatic '
-        f'mode: shareNow '
+        f'mode: addToQueue '
         f'}}) {{ '
         f'... on PostActionSuccess {{ post {{ id text status }} }} '
         f'... on MutationError {{ message }} '
@@ -86,7 +86,7 @@ def post_to_buffer(post_content):
     )
     print(f"query = {query}", flush=True)
     response = requests.post(
-        "https://api.buffer.com/graphql",
+        "https://api.buffer.com",
         headers = {
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json"
