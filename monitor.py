@@ -208,7 +208,6 @@ def check_subscriber_increases():
                     
                     ##### Buffer,Discordに送信 #####
                     send_discord_notification(post_content)
-                    
                     post_to_buffer(post_content)
             
             
@@ -217,6 +216,8 @@ def check_subscriber_increases():
                 send_discord_notification(traceback.format_exc())
                 subscriber_data["channels"][channel_name] = channel_data
                 subscriber_data["last_updated"] = datetime.now().isoformat()
+                send_discord_notification(datetime.now().isoformat())
+                save_subscriber_data(subscriber_data)
 
                 raise e
                 
