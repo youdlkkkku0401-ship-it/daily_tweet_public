@@ -70,42 +70,66 @@ def send_discord_notification(message):
         print(f"Discord通知失敗: {e}")
 
 # buffer投稿
+# Buffer投稿
 def post_to_buffer(post_content):
     token = os.getenv("BUFFER_ACCESS_TOKEN")
     profile_id = os.getenv("BUFFER_PROFILE_ID")
-    query = (
-        f'mutation {{ createPost(input: {{ '
-        f'text: {json.dumps(post_content)} '
-        f'channelId: "{profile_id}" '
-        f'schedulingType: automatic '
-        f'mode: addToQueue '
-        f'}}) {{ '
-        f'... on PostActionSuccess {{ post {{ id text status }} }} '
-        f'... on MutationError {{ message }} '
-        f'}} }}'
-    )
-    print(f"query = {query}", flush=True)
+
+    query = """
+    mutation CreatePost($input: CreatePostInput!) {
+      createPost(input: $input) {
+        ... on PostActionSuccess {
+          post {
+            id
+            text
+            status
+          }
+        }
+        ... on MutationError {
+          message
+        }
+      }
+    }
+    """
+
+    variables = {
+        "input": {
+            "text": post_content,
+            "channelId": profile_id,
+            "schedulingType": "automatic",
+            "mode": "shareNow"
+        }
+    }
+
     response = requests.post(
-        "https://api.buffer.com/",
-        headers = {
+        "https://api.buffer.com/graphql",
+        headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json"
-            },
-        json = {"query": query},
-        timeout = 30
-        )
+        },
+        json={
+            "query": query,
+            "variables": variables
+        },
+        timeout=30
+    )
+
+    print(response.status_code)
+    print(response.text)
+
     response.raise_for_status()
+
     data = response.json()
-    print(data)
-    print(response.status_code, flush=True)
-    print(response.text, flush=True)
 
     if "errors" in data:
         raise Exception(str(data["errors"]))
+
     result = data["data"]["createPost"]
 
     if "message" in result:
         raise Exception(result["message"])
+
+    return result
         
 
 #-------------#
