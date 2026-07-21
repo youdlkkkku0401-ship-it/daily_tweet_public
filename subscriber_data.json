@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T13:00:41.219322",
+  "last_updated": "2026-07-21T13:13:24.665230",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1510000,
@@ -484,10 +484,10 @@
       "last_post_fan": 207000
     },
     "周央サンゴ": {
-      "subscribers": 669000,
-      "last_checked": "2026-07-18T05:52:26.082867",
-      "last_posted_day": "2026-07-18T05:52:26.082874",
-      "last_post_fan": 669000
+      "subscribers": 670000,
+      "last_checked": "2026-07-21T13:13:22.248662",
+      "last_posted_day": "2026-07-21T13:13:22.248672",
+      "last_post_fan": 670000
     },
     "東堂コハク": {
       "subscribers": 202000,
@@ -1237,16 +1237,20 @@
       "last_post_fan": 555000
     },
     "ぷりん・らら・もーど": {
-      "subscribers": 11800,
-      "last_checked": "2026-07-21T13:00:41.219286"
+      "subscribers": 12000,
+      "last_checked": "2026-07-21T13:13:24.225943",
+      "last_posted_day": "2026-07-21T13:13:24.225945",
+      "last_post_fan": 12000
     },
     "ぽめろ・ぱんち": {
-      "subscribers": 11800,
-      "last_checked": "2026-07-21T13:00:41.219303"
+      "subscribers": 12000,
+      "last_checked": "2026-07-21T13:13:24.432181",
+      "last_posted_day": "2026-07-21T13:13:24.432183",
+      "last_post_fan": 12000
     },
     "ぽっぷん・パーラー": {
-      "subscribers": 8460,
-      "last_checked": "2026-07-21T13:00:41.219321"
+      "subscribers": 8630,
+      "last_checked": "2026-07-21T13:13:24.665228"
     }
   }
 }
