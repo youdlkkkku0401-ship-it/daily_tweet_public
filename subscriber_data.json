@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T11:52:22.406168",
+  "last_updated": "2026-07-22T12:01:29.380093",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1510000,
@@ -148,10 +148,10 @@
       "last_post_fan": 568000
     },
     "社築": {
-      "subscribers": 914000,
-      "last_checked": "2026-07-01T10:00:51.821177",
-      "last_posted_day": "2026-07-01T10:00:51.821188",
-      "last_post_fan": 914000
+      "subscribers": 915000,
+      "last_checked": "2026-07-22T12:00:43.577471",
+      "last_posted_day": "2026-07-22T12:00:43.577478",
+      "last_post_fan": 915000
     },
     "鈴木勝": {
       "subscribers": 331000,
@@ -1237,22 +1237,22 @@
       "last_post_fan": 555000
     },
     "ぷりん・らら・もーど": {
-      "subscribers": 21800,
-      "last_checked": "2026-07-22T11:52:22.406142",
+      "subscribers": 23800,
+      "last_checked": "2026-07-22T12:00:45.452460",
       "last_posted_day": "2026-07-22T11:13:17.347282",
       "last_post_fan": 20000
     },
     "ぽめろ・ぱんち": {
-      "subscribers": 21300,
-      "last_checked": "2026-07-22T11:52:22.406147",
+      "subscribers": 22400,
+      "last_checked": "2026-07-22T12:01:29.127037",
       "last_posted_day": "2026-07-22T10:26:22.089458",
       "last_post_fan": 19000
     },
     "ぽっぷん・パーラー": {
-      "subscribers": 13600,
-      "last_checked": "2026-07-22T11:52:22.406167",
-      "last_posted_day": "2026-07-22T11:00:53.703674",
-      "last_post_fan": 13000
+      "subscribers": 14000,
+      "last_checked": "2026-07-22T12:01:29.127061",
+      "last_posted_day": "2026-07-22T12:01:29.127062",
+      "last_post_fan": 14000
     }
   }
 }
