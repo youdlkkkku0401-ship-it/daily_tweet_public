@@ -102,7 +102,7 @@ def post_to_buffer(post_content):
     }
 
     response = requests.post(
-        "https://api.buffer.com/graphql",
+        "https://api.buffer.com",
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json"
