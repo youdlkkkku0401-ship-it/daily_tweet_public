@@ -70,10 +70,13 @@ def send_discord_notification(message):
         print(f"Discord通知失敗: {e}")
 
 # buffer投稿
-# Buffer投稿
 def post_to_buffer(post_content):
     token = os.getenv("BUFFER_ACCESS_TOKEN")
     profile_id = os.getenv("BUFFER_PROFILE_ID")
+
+    print("BUFFER_ACCESS_TOKEN exists:", bool(token))
+    print("BUFFER_ACCESS_TOKEN length:", len(token) if token else 0)
+    print("BUFFER_PROFILE_ID exists:", bool(profile_id))
 
     query = """
     mutation CreatePost($input: CreatePostInput!) {
@@ -114,12 +117,8 @@ def post_to_buffer(post_content):
         timeout=30
     )
 
-    print(response.status_code)
-    print(response.text)
-
-    print("BUFFER_ACCESS_TOKEN exists:", bool(token))
-    print("BUFFER_ACCESS_TOKEN length:", len(token) if token else 0)
-    print("BUFFER_PROFILE_ID exists:", bool(profile_id))
+    print("Buffer status:", response.status_code)
+    print("Buffer response:", response.text)
 
     response.raise_for_status()
 
