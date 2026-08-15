@@ -178,6 +178,17 @@ def check_subscriber_increases():
         channel_data = subscriber_data["channels"].get(channel_name, {})
         if increase > 0:
             last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
+
+            # 前回投稿から1時間経過判定
+            can_post = True
+            
+            if last_posted_day:
+                last_posted_dt = datetime.fromisoformat(last_posted_day)
+                elapsed = datetime.now() - last_posted_dt
+            
+                if elapsed.total_seconds() < 3600:
+                    can_post = False
+                    
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
                 current_million = current_subscribers // 100000 * 10
@@ -189,8 +200,8 @@ def check_subscriber_increases():
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
 
             #2K以上または奇数の時
-            elif (over2K or current_subscribers%2000 == 1000):
-            #elif (over2K or current_subscribers % 2000 == 0):
+            elif (over2K or current_subscribers % 2000 == 1000) and can_post:
+            #elif (over2K or current_subscribers%2000 == 1000):
                 #投稿差分計算(+***人
                 last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
                 if last_post_fan:
