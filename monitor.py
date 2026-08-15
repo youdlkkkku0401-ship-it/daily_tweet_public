@@ -117,6 +117,10 @@ def post_to_buffer(post_content):
     print(response.status_code)
     print(response.text)
 
+    print("BUFFER_ACCESS_TOKEN exists:", bool(token))
+    print("BUFFER_ACCESS_TOKEN length:", len(token) if token else 0)
+    print("BUFFER_PROFILE_ID exists:", bool(profile_id))
+
     response.raise_for_status()
 
     data = response.json()
