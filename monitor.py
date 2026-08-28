@@ -231,8 +231,8 @@ def check_subscriber_increases():
             channel_data["subscribers"] = current_subscribers
             channel_data["last_checked"] = datetime.now().isoformat()
             if current_subscribers%1000==0:
-                channel_data["last_posted_day"] = datetime.now().isoformat()
-                channel_data["last_post_fan"] = current_subscribers
+                #channel_data["last_posted_day"] = datetime.now().isoformat()
+                #channel_data["last_post_fan"] = current_subscribers
                 if not post_content:
                     send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
     
@@ -243,6 +243,8 @@ def check_subscriber_increases():
                         time.sleep(random.randint(20, 50))
                     p += 1
                     print(f"投稿：{channel_name} : {current_subscribers}人（＋{increase}人）")
+                    channel_data["last_posted_day"] = datetime.now().isoformat()
+                    channel_data["last_post_fan"] = current_subscribers
                     
                     ##### Buffer,Discordに送信 #####
                     send_discord_notification(post_content)
