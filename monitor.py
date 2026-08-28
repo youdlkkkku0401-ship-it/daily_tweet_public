@@ -186,7 +186,7 @@ def check_subscriber_increases():
                 last_posted_dt = datetime.fromisoformat(last_posted_day)
                 elapsed = datetime.now() - last_posted_dt
             
-                if elapsed.total_seconds() < 3600:
+                if elapsed.total_seconds() < 21600:
                     can_post = False
                     
             #10万人突破
