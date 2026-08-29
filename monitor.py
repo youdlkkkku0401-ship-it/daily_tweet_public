@@ -237,7 +237,7 @@ def check_subscriber_increases():
                     send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
                     if can_post:
                         channel_data["last_posted_day"] = datetime.now().isoformat()
-                         channel_data["last_post_fan"] = current_subscribers
+                        channel_data["last_post_fan"] = current_subscribers
     
             try:
                 if post_content:
