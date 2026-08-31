@@ -200,7 +200,7 @@ def check_subscriber_increases():
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
 
             #2K以上または奇数の時
-            elif (over2K or current_subscribers % 2000 == 1000) 
+            elif (over2K or current_subscribers % 2000 == 1000):
                 if can_post:
                     #投稿差分計算(+***人
                     post_increase = current_subscribers - last_post_fan
