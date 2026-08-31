@@ -183,11 +183,9 @@ def check_subscriber_increases():
 
             # 前回投稿から1時間経過判定
             can_post = True
-            
             if last_posted_day:
                 last_posted_dt = datetime.fromisoformat(last_posted_day)
                 elapsed = datetime.now() - last_posted_dt
-            
                 if elapsed.total_seconds() < 21600:
                     can_post = False
                     
@@ -202,27 +200,31 @@ def check_subscriber_increases():
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
 
             #2K以上または奇数の時
-            elif (over2K or current_subscribers % 2000 == 1000) and can_post:
-                #投稿差分計算(+***人
-                post_increase = current_subscribers - last_post_fan
-    
-                #日付計算/*日)
-                if last_posted_day:
-                    last_posted_dt = datetime.fromisoformat(last_posted_day)
-                    delta = datetime.now() - last_posted_dt
-                    days = delta.days
-                    elapsed_text = f"(+{post_increase}人/{days}日)"
-                else:
-                    last_count_day = datetime(2026, 5, 8)
-                    delta = datetime.now() - last_count_day
-                    days = delta.days
-                    elapsed_text = f"(+{post_increase}人)"
-                    
-                #ツイッター投稿テキスト
-                post_content = (f" {channel_name} さん\n"
-                                f"登録者数が {current_subscribers_comma}人 に到達しました\n"
-                                f"{elapsed_text}")
-                post_content += "\u200b" * random.randint(1, 2)
+            elif (over2K or current_subscribers % 2000 == 1000) 
+                if can_post:
+                    #投稿差分計算(+***人
+                    post_increase = current_subscribers - last_post_fan
+        
+                    #日付計算/*日)
+                    if last_posted_day:
+                        last_posted_dt = datetime.fromisoformat(last_posted_day)
+                        delta = datetime.now() - last_posted_dt
+                        days = delta.days
+                        elapsed_text = f"(+{post_increase}人/{days}日)"
+                    else:
+                        last_count_day = datetime(2026, 5, 8)
+                        delta = datetime.now() - last_count_day
+                        days = delta.days
+                        elapsed_text = f"(+{post_increase}人)"
+                        
+                    #ツイッター投稿テキスト
+                    post_content = (f" {channel_name} さん\n"
+                                    f"登録者数が {current_subscribers_comma}人 に到達しました\n"
+                                    f"{elapsed_text}")
+                    post_content += "\u200b" * random.randint(1, 2)
+            else:
+                #can_postじゃないときのみ次回更新をStopする
+                channel_data["pending_post"] = True
                 
             # データ更新
             channel_data["subscribers"] = current_subscribers
@@ -230,7 +232,8 @@ def check_subscriber_increases():
             if current_subscribers%1000==0:
                 if not post_content:
                     send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
-                    if can_post:
+                    pending_post = subscriber_data["channels"].get(channel_name, {}).get("pending_post")
+                    if can_post and not pending_post:
                         channel_data["last_posted_day"] = datetime.now().isoformat()
                         channel_data["last_post_fan"] = current_subscribers
     
