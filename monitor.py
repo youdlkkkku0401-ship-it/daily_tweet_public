@@ -200,7 +200,7 @@ def check_subscriber_increases():
                 
             #1万人達成
             elif previous_subscribers // 10000  < current_subscribers // 10000:
-                current_man = currentt_subscribers // 10000
+                current_man = current_subscribers // 10000
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
 
             #2K以上または奇数の時
