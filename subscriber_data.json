@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T11:00:40.325492",
+  "last_updated": "2026-08-31T11:13:19.588398",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -172,10 +172,11 @@
       "last_post_fan": 807000
     },
     "卯月コウ": {
-      "subscribers": 455000,
-      "last_checked": "2026-08-19T20:13:16.917749",
-      "last_posted_day": "2026-08-19T20:13:16.917757",
-      "last_post_fan": 455000
+      "subscribers": 456000,
+      "last_checked": "2026-08-31T11:13:19.423488",
+      "last_posted_day": "2026-08-31T11:13:19.588228",
+      "last_post_fan": 456000,
+      "pending_post": true
     },
     "神田笑一": {
       "subscribers": 268000,
@@ -1291,11 +1292,11 @@
       "pending_post": true
     },
     "RhyZyGy": {
-      "subscribers": 73000,
-      "last_checked": "2026-08-31T10:52:25.236840",
+      "subscribers": 73100,
+      "last_checked": "2026-08-31T11:13:19.588396",
       "last_posted_day": "2026-08-31T10:52:52.236998",
       "last_post_fan": 73000,
-      "pending_post": false
+      "pending_post": true
     }
   }
 }
