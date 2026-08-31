@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T13:13:26.268158",
+  "last_updated": "2026-08-31T13:26:49.409237",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -238,10 +238,11 @@
       "last_post_fan": 920000
     },
     "ジョー・力一": {
-      "subscribers": 659000,
-      "last_checked": "2026-08-27T13:13:21.564608",
-      "last_posted_day": "2026-08-27T13:13:21.564615",
-      "last_post_fan": 659000
+      "subscribers": 660000,
+      "last_checked": "2026-08-31T13:26:23.498814",
+      "last_posted_day": "2026-08-31T13:26:23.498835",
+      "last_post_fan": 660000,
+      "pending_post": false
     },
     "ベルモンド・バンデラス": {
       "subscribers": 491000,
@@ -1286,10 +1287,10 @@
       "last_post_fan": 38000
     },
     "神永タイガ": {
-      "subscribers": 149000,
-      "last_checked": "2026-08-31T12:26:24.094556",
-      "last_posted_day": "2026-08-31T10:52:23.269453",
-      "last_post_fan": 148000,
+      "subscribers": 150000,
+      "last_checked": "2026-08-31T13:26:25.381445",
+      "last_posted_day": "2026-08-31T13:26:47.381610",
+      "last_post_fan": 150000,
       "pending_post": false
     },
     "山田龍一郎": {
@@ -1300,8 +1301,8 @@
       "pending_post": false
     },
     "RhyZyGy": {
-      "subscribers": 73900,
-      "last_checked": "2026-08-31T13:13:26.268156",
+      "subscribers": 74000,
+      "last_checked": "2026-08-31T13:26:49.093549",
       "last_posted_day": "2026-08-31T10:52:52.236998",
       "last_post_fan": 73000,
       "pending_post": true
