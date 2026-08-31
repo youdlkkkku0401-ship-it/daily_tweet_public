@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T11:52:22.725221",
+  "last_updated": "2026-08-31T12:00:38.573640",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -689,10 +689,11 @@
       "last_post_fan": 177000
     },
     "栞葉るり": {
-      "subscribers": 473000,
-      "last_checked": "2026-08-24T18:52:24.375323",
-      "last_posted_day": "2026-08-24T18:52:24.375330",
-      "last_post_fan": 473000
+      "subscribers": 474000,
+      "last_checked": "2026-08-31T12:00:38.355335",
+      "last_posted_day": "2026-08-31T12:00:38.573535",
+      "last_post_fan": 474000,
+      "pending_post": true
     },
     "ミラン・ケストレル": {
       "subscribers": 309000,
@@ -1297,8 +1298,8 @@
       "pending_post": true
     },
     "RhyZyGy": {
-      "subscribers": 73300,
-      "last_checked": "2026-08-31T11:52:22.725214",
+      "subscribers": 73400,
+      "last_checked": "2026-08-31T12:00:38.573638",
       "last_posted_day": "2026-08-31T10:52:52.236998",
       "last_post_fan": 73000,
       "pending_post": true
