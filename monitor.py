@@ -168,8 +168,7 @@ def check_subscriber_increases():
         
         # 登録者数の増加をチェック
         increase = current_subscribers - previous_subscribers
-        
-        over2K = increase >= 2000 #2000以上増加
+        #千位の数値
         Kdigit = (current_subscribers // 1000) % 10 #1000の位
 
         #ツイート条件設定
@@ -178,6 +177,9 @@ def check_subscriber_increases():
         channel_data = subscriber_data["channels"].get(channel_name, {})
         if increase > 0:
             last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
+            last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
+            if last_post_fan:
+                over2K = (current_subscribers - last_post_fan) >= 2000 #前回postから2000以上増加
 
             # 前回投稿から1時間経過判定
             can_post = True
