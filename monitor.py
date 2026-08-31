@@ -179,6 +179,7 @@ def check_subscriber_increases():
         #データ取得
         channel_data = subscriber_data["channels"].get(channel_name, {})
         if increase > 0:
+            pending_post = subscriber_data["channels"].get(channel_name, {}).get("pending_post")
             last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
             last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
             if last_post_fan:
@@ -203,7 +204,7 @@ def check_subscriber_increases():
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
 
             #2K以上または奇数の時
-            elif (over2K or current_subscribers % 2000 == 1000):
+            elif ((over2K and not pending_post) or current_subscribers % 2000 == 1000):
                 if can_post:
                     #投稿差分計算(+***人
                     post_increase = current_subscribers - last_post_fan
@@ -235,7 +236,6 @@ def check_subscriber_increases():
             if current_subscribers%1000==0:
                 if not post_content:
                     send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
-                    pending_post = subscriber_data["channels"].get(channel_name, {}).get("pending_post")
                     if can_post and not pending_post:
                         channel_data["last_posted_day"] = datetime.now().isoformat()
                         channel_data["last_post_fan"] = current_subscribers
