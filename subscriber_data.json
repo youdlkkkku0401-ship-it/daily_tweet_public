@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T02:39:24.635156",
+  "last_updated": "2026-08-31T04:12:04.906777",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -318,10 +318,11 @@
       "last_post_fan": 212000
     },
     "エクス・アルビオ": {
-      "subscribers": 581000,
-      "last_checked": "2026-08-25T09:26:22.608575",
+      "subscribers": 582000,
+      "last_checked": "2026-08-31T04:12:01.961345",
       "last_posted_day": "2026-08-25T09:26:22.608583",
-      "last_post_fan": 581000
+      "last_post_fan": 581000,
+      "pending_post": true
     },
     "レヴィ・エリファ": {
       "subscribers": 375000,
@@ -856,10 +857,11 @@
       "last_post_fan": 69000
     },
     "小々波いるか": {
-      "subscribers": 80900,
-      "last_checked": "2026-08-30T17:52:19.449311",
-      "last_posted_day": "2026-08-27T22:39:16.145662",
-      "last_post_fan": 80000
+      "subscribers": 81000,
+      "last_checked": "2026-08-31T04:12:03.126672",
+      "last_posted_day": "2026-08-31T04:12:03.126688",
+      "last_post_fan": 81000,
+      "pending_post": false
     },
     "千凛あゆむ": {
       "subscribers": 111000,
@@ -886,10 +888,11 @@
       "last_post_fan": 159000
     },
     "レヨン": {
-      "subscribers": 96600,
-      "last_checked": "2026-08-30T18:26:22.206092",
+      "subscribers": 96700,
+      "last_checked": "2026-08-31T04:12:04.906746",
       "last_posted_day": "2026-08-29T19:26:22.043102",
-      "last_post_fan": 96000
+      "last_post_fan": 96000,
+      "pending_post": true
     },
     "ChroNoiR": {
       "subscribers": 1350000,
@@ -1279,10 +1282,11 @@
       "last_post_fan": 124000
     },
     "RhyZyGy": {
-      "subscribers": 71200,
-      "last_checked": "2026-08-31T02:26:21.537478",
+      "subscribers": 71400,
+      "last_checked": "2026-08-31T04:12:04.906776",
       "last_posted_day": "2026-08-31T01:00:43.149781",
-      "last_post_fan": 71000
+      "last_post_fan": 71000,
+      "pending_post": true
     }
   }
 }
