@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T10:52:53.766621",
+  "last_updated": "2026-08-31T11:00:40.325492",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -740,8 +740,8 @@
       "last_post_fan": 155000
     },
     "ルンルン": {
-      "subscribers": 918000,
-      "last_checked": "2026-08-31T09:39:19.329653",
+      "subscribers": 919000,
+      "last_checked": "2026-08-31T11:00:39.852325",
       "last_posted_day": "2026-08-31T09:39:19.591513",
       "last_post_fan": 918000,
       "pending_post": true
@@ -1258,10 +1258,11 @@
       "last_post_fan": 566000
     },
     "ぷりん・らら・もーど": {
-      "subscribers": 77700,
-      "last_checked": "2026-08-30T17:39:17.685126",
+      "subscribers": 77800,
+      "last_checked": "2026-08-31T11:00:40.325490",
       "last_posted_day": "2026-08-28T10:52:20.307595",
-      "last_post_fan": 77000
+      "last_post_fan": 77000,
+      "pending_post": true
     },
     "ぽめろ・ぱんち": {
       "subscribers": 75400,
