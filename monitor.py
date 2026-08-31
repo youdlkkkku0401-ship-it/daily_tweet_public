@@ -15,6 +15,9 @@ youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 CHANNELS_FILE = "channels.json"
 SUBSCRIBER_DATA_FILE = "subscriber_data.json"
 
+#待機時間設定
+wait_time = 14400
+
 def load_channels():
     """channelsファイルを読み込む"""
     with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
@@ -186,7 +189,7 @@ def check_subscriber_increases():
             if last_posted_day:
                 last_posted_dt = datetime.fromisoformat(last_posted_day)
                 elapsed = datetime.now() - last_posted_dt
-                if elapsed.total_seconds() < 21600:
+                if elapsed.total_seconds() < wait_time:
                     can_post = False
                     
             #10万人突破
@@ -196,7 +199,7 @@ def check_subscriber_increases():
                 
             #1万人達成
             elif previous_subscribers // 10000  < current_subscribers // 10000:
-                current_man = current_subscribers // 10000
+                current_man = currentt_subscribers // 10000
                 post_content = f"#{channel_name} さんが登録者 {current_man}万人 に到達しました"
 
             #2K以上または奇数の時
