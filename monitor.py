@@ -203,13 +203,8 @@ def check_subscriber_increases():
 
             #2K以上または奇数の時
             elif (over2K or current_subscribers % 2000 == 1000) and can_post:
-            #elif (over2K or current_subscribers%2000 == 1000):
                 #投稿差分計算(+***人
-                last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
-                if last_post_fan:
-                    post_increase = current_subscribers - last_post_fan
-                else:
-                    post_increase = increase
+                post_increase = current_subscribers - last_post_fan
     
                 #日付計算/*日)
                 if last_posted_day:
@@ -233,8 +228,6 @@ def check_subscriber_increases():
             channel_data["subscribers"] = current_subscribers
             channel_data["last_checked"] = datetime.now().isoformat()
             if current_subscribers%1000==0:
-                #channel_data["last_posted_day"] = datetime.now().isoformat()
-                #channel_data["last_post_fan"] = current_subscribers
                 if not post_content:
                     send_discord_notification(f"更新：{channel_name}：{current_subscribers}人(＋{increase}人）")
                     if can_post:
