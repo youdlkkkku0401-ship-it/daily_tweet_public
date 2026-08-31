@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T11:13:19.588398",
+  "last_updated": "2026-08-31T11:26:26.971215",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -94,10 +94,11 @@
       "last_post_fan": 1630000
     },
     "赤羽葉子": {
-      "subscribers": 216000,
-      "last_checked": "2026-08-27T16:39:21.841915",
-      "last_posted_day": "2026-08-27T16:39:21.841921",
-      "last_post_fan": 216000
+      "subscribers": 217000,
+      "last_checked": "2026-08-31T11:26:24.984822",
+      "last_posted_day": "2026-08-31T11:26:24.984846",
+      "last_post_fan": 217000,
+      "pending_post": false
     },
     "笹木咲": {
       "subscribers": 1020000,
@@ -754,10 +755,11 @@
       "last_post_fan": 306000
     },
     "早乙女ベリー": {
-      "subscribers": 301000,
-      "last_checked": "2026-08-28T12:00:36.045018",
-      "last_posted_day": "2026-08-28T12:00:36.045024",
-      "last_post_fan": 301000
+      "subscribers": 302000,
+      "last_checked": "2026-08-31T11:26:26.641263",
+      "last_posted_day": "2026-08-31T11:26:26.971136",
+      "last_post_fan": 302000,
+      "pending_post": true
     },
     "雲母たまこ": {
       "subscribers": 210000,
@@ -1292,8 +1294,8 @@
       "pending_post": true
     },
     "RhyZyGy": {
-      "subscribers": 73100,
-      "last_checked": "2026-08-31T11:13:19.588396",
+      "subscribers": 73200,
+      "last_checked": "2026-08-31T11:26:26.971213",
       "last_posted_day": "2026-08-31T10:52:52.236998",
       "last_post_fan": 73000,
       "pending_post": true
