@@ -246,6 +246,7 @@ def check_subscriber_increases():
                     print(f"投稿：{channel_name} : {current_subscribers}人（＋{increase}人）")
                     channel_data["last_posted_day"] = datetime.now().isoformat()
                     channel_data["last_post_fan"] = current_subscribers
+                    channel_data["pending_post"] = False
                     
                     ##### Buffer,Discordに送信 #####
                     send_discord_notification(post_content)
