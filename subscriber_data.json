@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T15:39:25.854245",
+  "last_updated": "2026-08-31T16:00:46.114588",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -1306,11 +1306,11 @@
       "pending_post": true
     },
     "RhyZyGy": {
-      "subscribers": 75000,
-      "last_checked": "2026-08-31T15:39:23.948068",
+      "subscribers": 75100,
+      "last_checked": "2026-08-31T16:00:46.114581",
       "last_posted_day": "2026-08-31T15:39:23.948090",
       "last_post_fan": 75000,
-      "pending_post": false
+      "pending_post": true
     }
   }
 }
