@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T11:26:23.804286",
+  "last_updated": "2026-09-01T11:39:28.156323",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -681,10 +681,11 @@
       "last_post_fan": 381000
     },
     "小柳ロウ": {
-      "subscribers": 494000,
-      "last_checked": "2026-08-25T12:26:21.185683",
-      "last_posted_day": "2026-08-25T12:26:21.185686",
-      "last_post_fan": 494000
+      "subscribers": 495000,
+      "last_checked": "2026-09-01T11:39:26.539470",
+      "last_posted_day": "2026-09-01T11:39:26.539489",
+      "last_post_fan": 495000,
+      "pending_post": false
     },
     "伊波ライ": {
       "subscribers": 414000,
@@ -1324,8 +1325,8 @@
       "pending_post": true
     },
     "RhyZyGy": {
-      "subscribers": 78600,
-      "last_checked": "2026-09-01T11:26:23.804284",
+      "subscribers": 78700,
+      "last_checked": "2026-09-01T11:39:28.156321",
       "last_posted_day": "2026-09-01T04:52:21.290145",
       "last_post_fan": 77000,
       "pending_post": true
