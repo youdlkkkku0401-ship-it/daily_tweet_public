@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T05:02:18.549516",
+  "last_updated": "2026-09-01T05:52:23.984205",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -913,11 +913,11 @@
       "pending_post": false
     },
     "レヨン": {
-      "subscribers": 97000,
-      "last_checked": "2026-08-31T21:13:20.001427",
+      "subscribers": 97100,
+      "last_checked": "2026-09-01T05:52:23.701938",
       "last_posted_day": "2026-08-31T21:13:20.001452",
       "last_post_fan": 97000,
-      "pending_post": false
+      "pending_post": true
     },
     "ChroNoiR": {
       "subscribers": 1350000,
@@ -1305,11 +1305,11 @@
       "pending_post": true
     },
     "神永タイガ": {
-      "subscribers": 155000,
-      "last_checked": "2026-09-01T03:26:20.346464",
+      "subscribers": 156000,
+      "last_checked": "2026-09-01T05:52:23.701952",
       "last_posted_day": "2026-09-01T03:26:20.346499",
       "last_post_fan": 155000,
-      "pending_post": false
+      "pending_post": true
     },
     "山田龍一郎": {
       "subscribers": 130000,
@@ -1319,11 +1319,11 @@
       "pending_post": false
     },
     "RhyZyGy": {
-      "subscribers": 77000,
-      "last_checked": "2026-09-01T04:52:21.290125",
+      "subscribers": 77200,
+      "last_checked": "2026-09-01T05:52:23.984204",
       "last_posted_day": "2026-09-01T04:52:21.290145",
       "last_post_fan": 77000,
-      "pending_post": false
+      "pending_post": true
     }
   }
 }
