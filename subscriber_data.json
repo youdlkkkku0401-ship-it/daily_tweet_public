@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01T17:00:48.184300",
+  "last_updated": "2026-09-01T17:26:30.335438",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -606,10 +606,11 @@
       "last_post_fan": 391000
     },
     "獅子堂あかり": {
-      "subscribers": 345000,
-      "last_checked": "2026-08-24T13:13:20.428730",
-      "last_posted_day": "2026-08-24T13:13:20.428736",
-      "last_post_fan": 345000
+      "subscribers": 346000,
+      "last_checked": "2026-09-01T17:26:30.093973",
+      "last_posted_day": "2026-09-01T17:26:30.335425",
+      "last_post_fan": 346000,
+      "pending_post": true
     },
     "鏑木ろこ": {
       "subscribers": 255000,
