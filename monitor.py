@@ -226,9 +226,9 @@ def check_subscriber_increases():
                                     f"登録者数が {current_subscribers_comma}人 に到達しました\n"
                                     f"{elapsed_text}")
                     post_content += "\u200b" * random.randint(1, 2)
-            else:
-                #can_postじゃないときのみ次回更新をStopする
-                channel_data["pending_post"] = True
+                else:
+                    #can_postじゃないときのみ次回更新をStopする
+                    channel_data["pending_post"] = True
                 
             # データ更新
             channel_data["subscribers"] = current_subscribers
