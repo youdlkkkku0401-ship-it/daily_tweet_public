@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T20:52:22.767926",
+  "last_updated": "2026-09-02T21:39:24.714645",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -76,10 +76,11 @@
       "last_post_fan": 197000
     },
     "剣持刀也": {
-      "subscribers": 1250000,
-      "last_checked": "2026-08-09T14:52:21.095528",
-      "last_posted_day": "2026-08-09T14:52:21.095539",
-      "last_post_fan": 1250000
+      "subscribers": 1260000,
+      "last_checked": "2026-09-02T21:39:22.608518",
+      "last_posted_day": "2026-09-02T21:39:22.608540",
+      "last_post_fan": 1260000,
+      "pending_post": false
     },
     "森中花咲": {
       "subscribers": 336000,
