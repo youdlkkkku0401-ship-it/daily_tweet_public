@@ -181,7 +181,7 @@ def check_subscriber_increases():
         if increase > 0:
             pending_post = subscriber_data["channels"].get(channel_name, {}).get("pending_post")
             last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
-            last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan")
+            last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan",current_subscribers)
             if last_post_fan:
                 over2K = (current_subscribers - last_post_fan) >= 2000 #前回postから2000以上増加
 
