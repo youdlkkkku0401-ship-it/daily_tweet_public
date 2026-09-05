@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T11:52:20.137587",
+  "last_updated": "2026-09-05T12:13:20.829867",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -809,10 +809,11 @@
       "pending_post": false
     },
     "渚トラウト": {
-      "subscribers": 304000,
-      "last_checked": "2026-09-02T12:26:22.440049",
-      "last_posted_day": "2026-09-02T12:26:22.712933",
-      "last_post_fan": 304000
+      "subscribers": 305000,
+      "last_checked": "2026-09-05T12:13:19.240471",
+      "last_posted_day": "2026-09-05T12:13:19.240495",
+      "last_post_fan": 305000,
+      "pending_post": false
     },
     "一橋綾人": {
       "subscribers": 207000,
