@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T14:39:19.836990",
+  "last_updated": "2026-09-06T14:52:27.738442",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -377,10 +377,11 @@
       "last_checked": "2026-05-26T02:17:25.938119"
     },
     "天宮こころ": {
-      "subscribers": 808000,
-      "last_checked": "2026-08-30T10:52:20.601882",
-      "last_posted_day": "2026-08-30T10:52:20.879741",
-      "last_post_fan": 808000
+      "subscribers": 809000,
+      "last_checked": "2026-09-06T14:52:25.490236",
+      "last_posted_day": "2026-09-06T14:52:25.490257",
+      "last_post_fan": 809000,
+      "pending_post": false
     },
     "エリー・コニファー": {
       "subscribers": 247000,
