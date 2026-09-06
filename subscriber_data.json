@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T22:39:18.976676",
+  "last_updated": "2026-09-06T22:52:24.116246",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -558,10 +558,11 @@
       "last_post_fan": 358000
     },
     "レイン・パターソン": {
-      "subscribers": 466000,
-      "last_checked": "2026-08-30T10:39:18.864444",
-      "last_posted_day": "2026-08-30T10:39:19.187059",
-      "last_post_fan": 466000
+      "subscribers": 467000,
+      "last_checked": "2026-09-06T22:52:19.765980",
+      "last_posted_day": "2026-09-06T22:52:19.766003",
+      "last_post_fan": 467000,
+      "pending_post": false
     },
     "天ヶ瀬むゆ": {
       "subscribers": 139000,
