@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T13:26:21.173450",
+  "last_updated": "2026-09-07T13:52:25.304922",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -48,10 +48,11 @@
       "last_post_fan": 304000
     },
     "夕陽リリ": {
-      "subscribers": 420000,
-      "last_checked": "2026-08-27T14:39:23.434810",
-      "last_posted_day": "2026-08-27T14:39:23.434818",
-      "last_post_fan": 420000
+      "subscribers": 421000,
+      "last_checked": "2026-09-07T13:52:23.129520",
+      "last_posted_day": "2026-09-07T13:52:23.129538",
+      "last_post_fan": 421000,
+      "pending_post": false
     },
     "物述有栖": {
       "subscribers": 262000,
@@ -1370,8 +1371,8 @@
       "pending_post": false
     },
     "RhyZyGy": {
-      "subscribers": 92000,
-      "last_checked": "2026-09-07T13:26:20.992897",
+      "subscribers": 92100,
+      "last_checked": "2026-09-07T13:52:25.304920",
       "last_posted_day": "2026-09-07T13:26:21.173439",
       "last_post_fan": 92000,
       "pending_post": false
