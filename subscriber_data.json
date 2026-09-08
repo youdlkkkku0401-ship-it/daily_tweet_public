@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T11:13:19.110414",
+  "last_updated": "2026-09-08T11:27:02.433503",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -623,11 +623,11 @@
       "last_post_fan": 391000
     },
     "獅子堂あかり": {
-      "subscribers": 346000,
-      "last_checked": "2026-09-01T17:26:30.093973",
-      "last_posted_day": "2026-09-01T17:26:30.335425",
-      "last_post_fan": 346000,
-      "pending_post": true
+      "subscribers": 347000,
+      "last_checked": "2026-09-08T11:26:22.905940",
+      "last_posted_day": "2026-09-08T11:26:22.905962",
+      "last_post_fan": 347000,
+      "pending_post": false
     },
     "鏑木ろこ": {
       "subscribers": 256000,
@@ -1366,15 +1366,15 @@
       "pending_post": false
     },
     "山田龍一郎": {
-      "subscribers": 150000,
-      "last_checked": "2026-09-07T11:39:24.430293",
-      "last_posted_day": "2026-09-07T11:39:24.430311",
-      "last_post_fan": 150000,
+      "subscribers": 151000,
+      "last_checked": "2026-09-08T11:26:24.691078",
+      "last_posted_day": "2026-09-08T11:27:00.691256",
+      "last_post_fan": 151000,
       "pending_post": false
     },
     "RhyZyGy": {
-      "subscribers": 93000,
-      "last_checked": "2026-09-08T09:13:22.558187",
+      "subscribers": 93100,
+      "last_checked": "2026-09-08T11:27:02.433501",
       "last_posted_day": "2026-09-08T09:13:22.558202",
       "last_post_fan": 93000,
       "pending_post": false
