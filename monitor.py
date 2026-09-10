@@ -209,6 +209,8 @@ def check_subscriber_increases():
                 if can_post:
                     #投稿差分計算(+***人
                     post_increase = current_subscribers - last_post_fan
+                    if post_increase==0:
+                            post_increase = 1000
         
                     #日付計算/*日)
                     if last_posted_day:
@@ -217,8 +219,6 @@ def check_subscriber_increases():
                         days = delta.days
                         elapsed_text = f"(+{post_increase}人/{days}日)"
                     else:
-                        if post_increase==0:
-                            post_increase = 1000
                         last_count_day = datetime(2026, 5, 8)
                         delta = datetime.now() - last_count_day
                         days = delta.days
