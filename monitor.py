@@ -217,10 +217,13 @@ def check_subscriber_increases():
                         days = delta.days
                         elapsed_text = f"(+{post_increase}人/{days}日)"
                     else:
+                        if post_increase==0:
+                            post_increase = 1000
                         last_count_day = datetime(2026, 5, 8)
                         delta = datetime.now() - last_count_day
                         days = delta.days
                         elapsed_text = f"(+{post_increase}人)"
+                        
                         
                     #ツイッター投稿テキスト
                     post_content = (f" {channel_name} さん\n"
