@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T10:39:21.547486",
+  "last_updated": "2026-09-11T11:26:59.210758",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -259,10 +259,11 @@
       "last_post_fan": 492000
     },
     "矢車りね": {
-      "subscribers": 204000,
-      "last_checked": "2026-08-30T02:26:19.985831",
-      "last_posted_day": "2026-08-30T02:26:20.152276",
-      "last_post_fan": 204000
+      "subscribers": 205000,
+      "last_checked": "2026-09-11T11:26:24.302039",
+      "last_posted_day": "2026-09-11T11:26:24.302060",
+      "last_post_fan": 205000,
+      "pending_post": false
     },
     "夢追翔": {
       "subscribers": 387000,
@@ -916,15 +917,15 @@
       "pending_post": false
     },
     "男虎": {
-      "subscribers": 114000,
-      "last_checked": "2026-09-06T10:13:22.993956",
-      "last_posted_day": "2026-09-06T10:13:23.145403",
-      "last_post_fan": 114000,
+      "subscribers": 115000,
+      "last_checked": "2026-09-11T11:26:26.640872",
+      "last_posted_day": "2026-09-11T11:26:57.640983",
+      "last_post_fan": 115000,
       "pending_post": false
     },
     "九里詠太": {
-      "subscribers": 71100,
-      "last_checked": "2026-09-10T01:13:22.007906",
+      "subscribers": 71200,
+      "last_checked": "2026-09-11T11:26:59.210756",
       "last_posted_day": "2026-09-09T12:00:57.836299",
       "last_post_fan": 71000,
       "pending_post": false
