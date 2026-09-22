@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T12:00:47.122087",
+  "last_updated": "2026-09-22T12:14:16.346408",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1520000,
@@ -1027,10 +1027,10 @@
       "pending_post": false
     },
     "Idios": {
-      "subscribers": 68900,
-      "last_checked": "2026-09-22T03:13:23.428457",
-      "last_posted_day": "2026-09-20T13:52:25.030019",
-      "last_post_fan": 68000,
+      "subscribers": 69000,
+      "last_checked": "2026-09-22T12:13:23.679462",
+      "last_posted_day": "2026-09-22T12:13:23.679485",
+      "last_post_fan": 69000,
       "pending_post": false
     },
     "Oriens": {
@@ -1386,10 +1386,10 @@
       "pending_post": false
     },
     "ぽっぷん・パーラー": {
-      "subscribers": 40900,
-      "last_checked": "2026-09-21T08:39:26.423353",
-      "last_posted_day": "2026-09-17T02:26:23.713064",
-      "last_post_fan": 40000,
+      "subscribers": 41000,
+      "last_checked": "2026-09-22T12:13:25.513720",
+      "last_posted_day": "2026-09-22T12:14:14.513881",
+      "last_post_fan": 41000,
       "pending_post": false
     },
     "神永タイガ": {
@@ -1407,11 +1407,11 @@
       "pending_post": false
     },
     "RhyZyGy": {
-      "subscribers": 108000,
-      "last_checked": "2026-09-22T12:00:46.337466",
-      "last_posted_day": "2026-09-22T12:00:47.122075",
-      "last_post_fan": 108000,
-      "pending_post": false
+      "subscribers": 109000,
+      "last_checked": "2026-09-22T12:14:16.074344",
+      "last_posted_day": "2026-09-22T12:14:16.346395",
+      "last_post_fan": 109000,
+      "pending_post": true
     }
   }
 }
