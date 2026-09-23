@@ -232,7 +232,7 @@ def check_subscriber_increases():
                     post_content += "\u200b" * random.randint(1, 2)
                 else:
                     #can_postじゃないときのみ次回更新をStopする
-                    channel_data["pending_post"] = True
+                     pending_post = channel_data["pending_post"] = True
                 
             # データ更新
             channel_data["subscribers"] = current_subscribers
