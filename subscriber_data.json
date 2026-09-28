@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T10:39:21.771082",
+  "last_updated": "2026-09-28T10:52:33.274092",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1530000,
@@ -539,10 +539,11 @@
       "last_post_fan": 208000
     },
     "周央サンゴ": {
-      "subscribers": 678000,
-      "last_checked": "2026-09-05T13:26:20.097720",
-      "last_posted_day": "2026-09-05T13:26:20.519609",
-      "last_post_fan": 678000
+      "subscribers": 679000,
+      "last_checked": "2026-09-28T10:52:30.840861",
+      "last_posted_day": "2026-09-28T10:52:30.840887",
+      "last_post_fan": 679000,
+      "pending_post": false
     },
     "東堂コハク": {
       "subscribers": 205000,
