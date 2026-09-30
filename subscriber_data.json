@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T11:26:23.048998",
+  "last_updated": "2026-09-30T11:39:27.221314",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1530000,
@@ -179,10 +179,11 @@
       "last_post_fan": 331000
     },
     "緑仙": {
-      "subscribers": 808000,
-      "last_checked": "2026-09-12T13:26:22.722218",
-      "last_posted_day": "2026-09-12T13:26:23.052225",
-      "last_post_fan": 808000
+      "subscribers": 809000,
+      "last_checked": "2026-09-30T11:39:24.535263",
+      "last_posted_day": "2026-09-30T11:39:24.535290",
+      "last_post_fan": 809000,
+      "pending_post": false
     },
     "卯月コウ": {
       "subscribers": 460000,
