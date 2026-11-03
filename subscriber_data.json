@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T13:40:01.497463",
+  "last_updated": "2026-11-03T13:52:27.068253",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1530000,
@@ -1418,8 +1418,8 @@
       "pending_post": false
     },
     "ぽっぷん・パーラー": {
-      "subscribers": 43400,
-      "last_checked": "2026-11-02T23:39:22.893161",
+      "subscribers": 43500,
+      "last_checked": "2026-11-03T13:52:25.258602",
       "last_posted_day": "2026-11-01T06:26:22.501935",
       "last_post_fan": 43000,
       "pending_post": false
@@ -1439,10 +1439,10 @@
       "pending_post": false
     },
     "RhyZyGy": {
-      "subscribers": 136000,
-      "last_checked": "2026-10-31T10:52:21.720607",
-      "last_posted_day": "2026-10-31T10:52:22.073019",
-      "last_post_fan": 136000,
+      "subscribers": 137000,
+      "last_checked": "2026-11-03T13:52:25.258631",
+      "last_posted_day": "2026-11-03T13:52:25.258678",
+      "last_post_fan": 137000,
       "pending_post": false
     }
   }
