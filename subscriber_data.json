@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T23:52:30.938315",
+  "last_updated": "2026-11-24T00:26:23.415456",
   "channels": {
     "月ノ美兎": {
       "subscribers": 1530000,
@@ -144,10 +144,11 @@
       "pending_post": true
     },
     "ドーラ": {
-      "subscribers": 362000,
-      "last_checked": "2026-07-27T12:26:19.582815",
-      "last_posted_day": "2026-07-27T12:26:19.582824",
-      "last_post_fan": 362000
+      "subscribers": 363000,
+      "last_checked": "2026-11-24T00:26:21.936391",
+      "last_posted_day": "2026-11-24T00:26:21.936411",
+      "last_post_fan": 363000,
+      "pending_post": false
     },
     "轟京子": {
       "subscribers": 148000,
