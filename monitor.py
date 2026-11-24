@@ -16,7 +16,7 @@ CHANNELS_FILE = "channels.json"
 SUBSCRIBER_DATA_FILE = "subscriber_data.json"
 
 #待機時間設定
-wait_time = 14400
+wait_time = 100
 
 def load_channels():
     """channelsファイルを読み込む"""
