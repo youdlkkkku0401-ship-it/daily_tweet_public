@@ -16,7 +16,7 @@ CHANNELS_FILE = "channels.json"
 SUBSCRIBER_DATA_FILE = "subscriber_data.json"
 
 #待機時間設定
-wait_time = 100
+wait_time = 86400
 
 def load_channels():
     """channelsファイルを読み込む"""
@@ -165,6 +165,7 @@ def check_subscriber_increases():
             subscriber_data["channels"][channel_name] = {
                 "subscribers": current_subscribers,
                 "last_checked": datetime.now().isoformat()
+                "pending_post": True
             }
             save_subscriber_data(subscriber_data)
             continue
@@ -182,16 +183,20 @@ def check_subscriber_increases():
             pending_post = subscriber_data["channels"].get(channel_name, {}).get("pending_post")
             last_posted_day = subscriber_data["channels"].get(channel_name, {}).get("last_posted_day")
             last_post_fan = subscriber_data["channels"].get(channel_name, {}).get("last_post_fan",current_subscribers)
-            if last_post_fan:
-                over2K = (current_subscribers - last_post_fan) >= 2000 #前回postから2000以上増加
 
-            # 前回投稿から1時間経過判定
             can_post = True
-            if last_posted_day:
+            # 前回投稿から5000増加判定
+            if last_post_fan:
+                over5K = (current_subscribers - last_post_fan) >= 5000 #前回postから5000以上増加
                 last_posted_dt = datetime.fromisoformat(last_posted_day)
                 elapsed = datetime.now() - last_posted_dt
-                if elapsed.total_seconds() < wait_time:
-                    can_post = False
+                
+                if pending_post:
+                    if elapsed.total_seconds() >= wait_time and not over5K:
+                        pending_post = channel_data["pending_post"] = False
+                    else:
+                        pending_post = channel_data["pending_post"] = True
+                        can_post = False
                     
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
@@ -230,9 +235,6 @@ def check_subscriber_increases():
                                     f"登録者数が {current_subscribers_comma}人 に到達しました\n"
                                     f"{elapsed_text}")
                     post_content += "\u200b" * random.randint(1, 2)
-                else:
-                    #can_postじゃないときのみ次回更新をStopする
-                     pending_post = channel_data["pending_post"] = True
                 
             # データ更新
             channel_data["subscribers"] = current_subscribers
