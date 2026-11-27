@@ -1461,7 +1461,7 @@
     "リュールとロビュスト": {
       "subscribers": 33000,
       "last_checked": "2026-11-27T16:26:22.175243",
-      "pending_post": false,
+      "pending_post": true,
       "last_posted_day": "2026-11-27T16:26:22.175260",
       "last_post_fan": 33000
     }
