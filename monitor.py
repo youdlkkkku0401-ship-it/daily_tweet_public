@@ -164,7 +164,7 @@ def check_subscriber_increases():
         if previous_subscribers == 0:
             subscriber_data["channels"][channel_name] = {
                 "subscribers": current_subscribers,
-                "last_checked": datetime.now().isoformat()
+                "last_checked": datetime.now().isoformat(),
                 "pending_post": True
             }
             save_subscriber_data(subscriber_data)
