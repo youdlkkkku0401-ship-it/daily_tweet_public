@@ -186,7 +186,7 @@ def check_subscriber_increases():
 
             can_post = True
             # 前回投稿から5000増加判定
-            if last_post_fan:
+            if last_post_fan and last_posted_day:
                 over5K = (current_subscribers - last_post_fan) >= 5000 #前回postから5000以上増加
                 last_posted_dt = datetime.fromisoformat(last_posted_day)
                 elapsed = datetime.now() - last_posted_dt
