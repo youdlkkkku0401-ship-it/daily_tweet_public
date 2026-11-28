@@ -212,7 +212,7 @@ def check_subscriber_increases():
 
             #奇数の時
             elif current_subscribers % 2000 == 1000:
-            #elif ((over2K and not pending_post) or current_subscribers % 2000 == 1000):
+            #elif ((over5K and not pending_post) or current_subscribers % 2000 == 1000):
                 if can_post:
                     #投稿差分計算(+***人
                     post_increase = current_subscribers - last_post_fan
@@ -257,7 +257,6 @@ def check_subscriber_increases():
                     print(f"投稿：{channel_name} : {current_subscribers}人（＋{increase}人）")
                     channel_data["last_posted_day"] = datetime.now().isoformat()
                     channel_data["last_post_fan"] = current_subscribers
-                    channel_data["pending_post"] = False
                     
                     ##### Buffer,Discordに送信 #####
                     send_discord_notification(post_content)
