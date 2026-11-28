@@ -1461,7 +1461,7 @@
     "ファクトゥールズ": {
       "subscribers": 43800,
       "last_checked": "2026-11-28T04:39:20.171591",
-      "pending_post": false,
+      "pending_post": true,
       "last_posted_day": "2026-11-28T02:13:20.654203",
       "last_post_fan": 40100
     }
