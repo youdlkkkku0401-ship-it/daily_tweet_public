@@ -197,6 +197,8 @@ def check_subscriber_increases():
                     else:
                         pending_post = channel_data["pending_post"] = True
                         can_post = False
+            else:
+                can_post = False
                     
             #10万人突破
             if previous_subscribers // 100000  < current_subscribers // 100000:
